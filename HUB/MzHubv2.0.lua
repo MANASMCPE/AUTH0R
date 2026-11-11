@@ -1,1 +1,2173 @@
-local _gh=(function(v0,v1,v2,v3)local v4={}return function(v5)local v6=v4[v5]if v6==nil then local v7=v3[v5]local v8={}for v9=1,#v7[1] do v8[v9]=v1((v0(v7[1],v9)-v7[2]-v9*v7[3])%256)end v6=v2(v8)v4[v5]=v6 end return v6 end end)(string.byte,string.char,table.concat,{{"\140\144\109\109\065\054\031",84,232},{"\076\071\045\009\244\212\168\141\114",18,227},{"\061\097\080\081\091\065\084\098\103\091\086\089",232,1},{"\074\027\192\097\233\160\082\251\147\050\217",93,165},{"\075\133\149\145\186\222\249\003\020\045",226,23},{"\072\205\074\184\039\147\003\136\235\092\189\080\189\050\147\011\123",132,114},{"\246\241\192\170\094\096\063\033\253\185\168\146\115\067\026\249",196,221},{"\158\140\110\076\049\218\177\147\184\137\129\026\053\025\006\220\203\154\143\111\067\050\005\243\212\188\143\122\098\254\021\003\227\135\168\148\116\065\050\211\253\209\184\144\131\089\001\038\251\222\205\107\134\101\067\040\025\183\215\173\151\126\033\005\228\206\168\145\114\078\110\089\039",84,226},{"\100\167\231\037\059\180\189\031\116\180\233\018\117\132\237\059\105\136\209\010\119\181\243\051\079\184\006\052\092",214,65},{"\032\085\094\130\071\000\012\140",180,23},{"\102\034\004\185\151\099\033\252\189\132\038\231\179\129\076\026\231\177\126\078\020\228\181\129\069\021\225\177",40,204},{"\148\078\252\146",179,157},{"\097\090\080\068\016\063\254\022\033\023\002\225\250",29,247},{"\241\034\083\132\181\230",144,49},{"\067\052\037\022\007\248",12,241},{"\157\104\006\181",174,166},{"\161\142\110\095",80,232},{"\160\095\247\178\065\241",173,163},{"\022\163\036\192",18,143},{"\136\040\188\077",175,140},{"\011\054\096\130\152",127,36},{"\044\099\113\135\145",213,17},{"\121\001\156\040",108,150},{"\081\101\084\075\046\030\033\008\000\241",15,242},{"\179\030\149\007\132\242",202,118},{"\230\094\202\050\161\212\053\161\080\171\045\080\245\099\218\058\179\012\139\245\083\204\041\161\012\126\219\080\194\232\137\001\107\153\035\131\252\091\217\063\161\026\123\209\079\207\058\154\238\124\197\111\207\067\180\225\107\217\068\173\045\134\245\089\205\024\198\048\149",18,108},{"\112\140\167\189",40,23},{"\198\076\207\080\169\101\177\086\238\113\233\085\251\077\249\138\251\093\028\145\018\147\022\117\045\172\040\170\061\181\054\199\025\207\081\226",245,132},{"\175\005\088\169\210\094\122\239\087\170\242\046\164\198\061\189\015\099\191\012\091\186\019",14,84},{"\104\161\175\200\142\246\254\015\222\022\079\109\113\145\168\174\126\225\236\000\023\037\063\075\106",10,20},{"\161\016\084\160\138\241\089\166\217\040\110\163\162\049\113\185\249",27,67},{"\215\091\231\107",228,135},{"\160\131\090\045\007\165\113\072\084\048\017\216\187\149\094\255\015\230\133\114\090\060\248\206\208\155\128\050",97,215},{"\068\193\059\179\003\182\249\149\036\158\013\112\013\098\209\121\028\142\017\129\255\119\247\107\244\091\225\016\204\084\197\252\196\071\185\060\172\036\174\034\146\019\148\014\124\002\049\212\092\196\041\152\098\212\079\201\081\195\067\183\235\167\225\178\024\164\022\141\023\151\185\131\255\126\238\111\233\105\145\082\214\084\125\081\194\067\117\228\168\040\085\020\144\028\134\008\134\002\122\237\113\242\025\231\099\203\089\197\009\096\021\177\061\167\041\167\035\147\013\068\001\147\181\093\218\084\204",124,123},{"\006\144\021\049\202\092\203\081\197\053\155\028\060\192\048\165\022\139\238\105\250\144\012\128\244\019\187\073\176\032\166\010\065\197\008\178\072\187\047\161\234\067\227\088\202\058\130\045\104\252\131\245\092\183\076\181\053\149\208\124\030\132\246\110\236\094\152\241\145\006\120\232",69,115},{"\033\001\185\124\062",11,195},{"\199\067\138\205\041\121\194\012",48,79},{"\195\061\132\214\005\115\202\007\099",42,79},{"\222\253\224\233\208\207\200",163,244},{"\071\172\228\039\108\167\242\035\030\136\243\043\110",190,64},{"\088\159\225\007\074\042\148\211\018\079\115\181",210,52},{"\239\218\189\180\150\121\094\003\046\011\239\214\200",166,230},{"\210\062\157\220\020\114\208\031",67,77},{"\251\001\248\220\207\178\180\148\062\091\107\078\070\050\040",183,239},{"\072\239\097\207\086\209\069\186\034\185\051\178\008\147\030\154",134,122},{"\058\223\078\203\081\198\065",121,124},{"\196\132\041\178\078\243\135\033",229,155},{"\197\063\141\239\061\144\160\027\153\245",45,85},{"\044\125\172\126\214\026\055\119\139\192",190,40},{"\157\110\019\204\113\027\130\130\034\203\050\036\217\140",174,172},{"\105\170\206\247\019\050\252\064\135\172",10,30},{"\187\180\158\133\122\121",91,242},{"\155\095\024\195\115\054\148\118\068\235\181\083\018",150,178},{"\071\122\061\159\173\180\222\220\251\187\014\053\050\076\097\104\123\151\162",231,18},{"\149\214\011\091\089\210\026\090\155\230",221,67},{"\009\248\184\150\086\031\254",236,205},{"\083\134\162\212\157\241\030\079\100\130\177",221,32},{"\133\206\000\072\039\177\219\027\078\138\178\233\215\097\139\190\175\053\103\146\224\002\069\041\162\214\024\070\137\174",249,54},{"\065\253\144\043\186\009\192\120\031\170\070\219\118",101,150},{"\253\227\180\109\061\192\177\162\106\058\254",222,203},{"\177\075\188\053\162\207\140\004\123\241\098\221\064\179\227\174\019\132\001\039\239\080\211\071\180\045\154\199\138\253\035\231\087\192\076\172\045\162",247,116},{"\117\023\144\017\134\187\103\255\112\004\108\245\031\163\078\220\099\211\007\177\078\190\067\188\063\116",179,124},{"\159\147\094\049\248\127\164\100\061\255\133\149\122\063\254\222\172\039\067\018\212\171\118\075",139,206},{"\181\212\242\248\014\033",83,15},{"\042\220\095\236\134\252\155\057\191\085\232",79,143},{"\139\007\124\224",187,111},{"\115\202\024\110\184",188,81},{"\082\172\235\046\120\185\011",166,71},{"\011\023\235\223\149\147\118\075\053\009\238\204",234,223},{"\203\162\065\000\120\084\247\158",223,170},{"\115\010\084\243\102\227",175,118},{"\121\242\098\205\007\156\249\118\187\050\161\012\104\214\073\182",189,104},{"\041\026\211\172\077\032\235\178\106\052\003\204",35,196},{"\223\232\185\170\083\088\055\004\226",193,220},{"\118\103\047\255\195\071\066\041\233\204\131\091\212\167\140\142\080\012\233\180\044\024\016\225\161\035\020\005\205\157\097\238",101,203},{"\234\045\071\105\127\085\194\219\237\034\043\085\115\061\177\192\232\249\206\059\090\116\150\164\191\237\255\034\062",135,29},{"\209\029\072\122",90,47},{"\106\012\130\013\143\001\120\212\101",170,125},{"\116\168\180\201\230\245\023\226\026\083\123\135\164\186\214",10,23},{"\246\140\016\128\176\087\234\086\229\072\204",61,119},{"\042\193\070\183\232\175\038\080\027\133\004\117\235\116\221\084\136\080\196\049\193\037\170",112,120},{"\180\076\195\065\203\060\194\233\148\043\155\046\149\029",241,123},{"\163\143\112\242\023\236\116\158\104\059\204\210\196\143\125\063\034\166\196\151\105\066",122,214},{"\149\214\227\016\038\002\082\142\163\219\231\020",34,32},{"\167\209\199\221\220\161\248\248\020\025\206\043\047\233\070\067\073\013\070\107\105\138\127\149",75,9},{"\170\179\159\145\128\091\071\057\216\242\248\215\217\175\166",126,234},{"\134\050\170\077\200\088\220\032\250\132\193\160\031\167\237\168\079\207\114\233\129\186\135\017\158\049",168,139},{"\057\032\212\144\094\193\173\133\054\010\178\123",57,188},{"\152\232\005\042\097\045\159\198\224\006",47,37},{"\212\229\183\160\060\079\078\038\033\240\224",173,227},{"\060\046\225\171\040\064\248\185\056\076\012\197\161\081\034",52,196},{"\202\037\087\145\191\173\003\099\152",79,53},{"\120\161\161\169\165\097\133\179\182\109\160\191\183\210\193\209\213",47,3},{"\201\074\202\050\170\031\143",5,113},{"\025\224\131\113\063\004\209\146\051\028\239\183",11,200},{"\145\177\139\118\117\097\063\231\250\230\174\193\180\158\144\118\060\074\066\047",95,237},{"\181\175\117\077\039\013\229",138,216},{"\123\080\001\253\217\172\135\086\005\252\221\179\093\088\097\036\248\224\181\124\081\228",95,214},{"\097\196\051\157\018\120\175\083\198\049\157\019",128,110},{"\069\008\191\114\044\170\086\013\007\173\122\232\216\145\083\254\194\102\048\229\142\082\250\189\115\048\216\152\085\198\178\117\042\163\120\035\231\145\090\011\184\124\040\201\151\116\040\228\148\055\254\196\114\048\203\093\087\001\185\125\240\224\148\071\001\199\058\047\218\153\085\205\187\120\044\232\152\047\230\132\121\057\220\096\093\024\203",38,183},{"\098\160\211\068\133\225\023\111",197,75},{"\209\230\181\149\137\106\061\218\238\195\141\149\109\096\045\028\204\225\211\196\157\134\108",170,226},{"\017\018\008\060\064\095\088\115\079\130\195\190\202\234\247\246\003\206",177,14},{"\223\244\247\014\026\221\046\054\055\057\080\083\098\101",116,10},{"\095\034\217\140\070\196\112\039\033\199\148\002\242\171\109\024\220\128\074\255\168\108\020\215\141\074\242\178\111\224\204\143\068\189\146\061\001\171\116\037\210\150\066\227\172\119\045\216\119\080\228\222\136\064\004\119\103\027\206\136\078\193\182\097\032\220\084\079\252\196\102\229\225\139\080\253\197\103\043\158\147\083\246",64,183},{"\147\078\017\162\112\052\237\158\082\023",149,184},{"\180\140\030\193\120\028\178\018\221\133\053\179\110\031\197\099\004\182",202,165},{"\057\118\187\193\030\100\159\210\008\079\087\182\035\074\130\206\007\050\107\098",185,58},{"\247\114\220\074\179\025\149\187\106\206\059",38,109},{"\242\025\052\075\105\075\091\118\212\222\015\225\053\082\120\135\175\183\229\254\011\051\063\102\128\161\173\209\242\199\023\062\087\052\109\124\164\178\223\244\005\045\061\066\111\158\184\199\202\007\255\093\107\135\175\134\218\242\009\039\081\040\129\144\179\211\175\227\011\019\027\077\139\177\155\226\254\018\041\081\040\129\165\172",111,27},{"\024\166\016\194\086\222\128\219\142\043\169\078",67,143},{"\124\221\248\036\100\145\176\153\237\026\035\116\167\206\015\009\091\151\180\248",9,46},{"\072\139\170\017\090\151\238\254\102\184\235\069\082\187\050\099\165\251\062\115\182\183",190,68},{"\222\133\032\183\085\183\071\226\192\074\251\077\033\190\100\243\155\035\209\106\247\159\043\210\108\013\153\061\222\051\003\170\067\160\089\232\144\030\203\096\241\153\041\174\096\026\147\083\231\149\032\201\083\004\087\053\195\095\007\094\050\202\097\255\169\000\217\104\011\171\007\185\115\236\172\064\206\089\034\172\093\175\136\044\179",219,155},{"\222\030\071\175\238\030\110\175\229\051",87,65},{"\160\134\038\215\156\078\242\096\057\235\121\096\017\179\117\040\208\144",168,179},{"\028\097\130\252\064\117\202\016\075\158\178\029\150\201\013\101\170\225\038\041",144,70},{"\191\043\139\231\074\113\198\038\201\024\142\165\062\160\011\095\204\025\140\234\060\169\250\102\197\043\124\229\075\101\250\102\196\230\100\184\037\120\234\068\154\007\092\166\024\140\235\063\135\009\070\233\060\157\010\038\191\028\120\219\074\102\004\088\192\037\070\235\073\152\007\103\188\041\141\170\005\163\012\088",247,96},{"\177\250\023\046\030\100\191\218\239\037\073",74,36},{"\210\065\106\164\242\045\090\081\175\034\085\130\208\012",81,60},{"\145\238\011\034\090\128\083\158\247\010\046\102\139\162\199\170",41,38},{"\071\084\085\082\086\030\020\021\079\092\093\090\094\038\028\029\097\081\104\032\090\093\105\094\108\090\110\109\096\110\096\109\109\116\102\112\119\050\104\117\116\055\086\075\089\077\096\091\082\096\086\065\084\105\105\094\071\106\072\140\128\130\144\077\135\133\130\134\150\083\146\135\144\150\088\114\128\110\092\158\161\159\165\151\150\168\154\154\101\164\174\155\105\176\181\178",222,1},{"\086\022\179\046\161\100\042\202\109\252\168",107,158},{"\025\205\059\186\077\205\063\123\041\204\076\170\000\166\079\210\088\202\089",83,129},{"\018\139\225\021\065\189\060\149\241\057\158\162\030\168\236\065\170\000\072\158\178",110,87},{"\065\010\199\128\064\196\118\051\051\223\178\038\028\219\163\084\030\200\152\083\002\204\122\067\255\194\112\054\249\112\098\043\230\101\064\241\187\107\058\241\164\110\032\199\155\119\028\251\183\081\008\237\172\110\028\231\115\103\218\218\138\072\018\139\129\059\244\180\128\249\244\165\106\044\170\125\098\033\227\145\092\232\220\109\076\008\162\115\021\000\172\111\044\227\161\104\030\213\128\089\027\211\148\077\027\195\073\068\010\179",28,189},{"\032\185\063\194\082\124\036\207\084\220\080\225",74,131},{"\229\074\105\153\221\014\049\030\131\203\000\050\113\074\161\251\047\102\137\201",110,50},{"\095\100\086\069\065\215\235\002\243\231\199\196\096\116\150\114\095\096\078\046\028\200",29,239},{"\136\124\100\072\051\226\191\167\210\169\167\070\103\081\068\032\021\234\229\203\165\154\115\103\078\060\021\006\244\150\179\167\141\055\055\057\058\013\002\165\168\169\095\095\097\098\053\229\019\252\229\190\166\087\130\093\070\059\223\000\229\201\180\171\079\117\081\065\046\215\227\225\204\180\169\061\050\024\053\037\015\252\213",56,232},{"\208\108\033\199\081\044\238\179",203,174},{"\034\031\214\158\122\067\254\131\132\060\013\207\117\108\074\043",19,202},{"\240\173\131\074\245\241\212\186\049\037\039\227\176\145\095\031\237\121",202,207},{"\082\002\166\070\237\088\241\149\124\015\201\036\001\167\086\238\159\048\231\137\031\208\101\021\184\098\247\164\078\172\133\053\215\061\255\151\072\223\149\051\205\126\023\165\093\035\206\107\029\194\091\247\166\053\231\146\046\176\139\003\201\108\237\167\088\242\126\063\237\127\241\216\111\020\197\037\002\163\067\234\157\253\223\119\035\204\049\233\143\058\215\137\046\199\099\018\152\122\039\183",70,164},{"\130\095\023\215\131\060\008\184\121\051\243",119,187},{"\120\152\135\114\117\097",57,246},{"\243\040\074\082\121",133,26},{"\103\159\176\176\114\160\215\223\234\242\007\008\025\035",27,11},{"\137\251\072\157\222\044\141\220\217\106\192\010\098\183\012\093\089\239\069\146\231\048\140\149\217\107\197\010\092\180\185\081\168\245\062\156\165\233\126\221\028\055\133\201\090\183\253\009\168\253\065\142\235\060",233,80},{"\148\239\035\070\043\124\214\001\047\090\146\182\234\023\247\074\161\194\241\041\080\125\104",37,46},{"\045\196\052\147\180\065\215\062\168\015\131\227\083\188\216\102\245\105\193\044\160\003\108\147",130,106},{"\113\238\119\251\138\010\091\037\164\044",118,136},{"\228\233\205\192\176\140",180,232},{"\161\090\236\109\176\114\023\157\036",212,140},{"\223\164\058\238\128\044\213\119\199\174\082\241\167\062\153\130\049\209\114\200\177\079\253\160\064\232\132\224\204\116\029\187\015\006\157\061\155\148\048\205\107",236,163},{"\094\133\133\116\037\085\104\092\081\007\038\073\054\049\053\040\033\216",35,250},{"\186\017\065\096\065\161\228\008\045\019\097\176\228\252\039\091\126\167\142",79,42},{"\067\231\106\252\139\006\104\020\148\040\168\045\179",116,135},{"\196\227\217\210",134,250},{"\192\037\141\174\028\105\197\030\099",34,81},{"\131\129\106\059\035\003\229",76,227},{"\055\198\064\162\027\112\009\131\232\105\208\082\199",111,116},{"\198\208\183\163\122\116\094\068\032",138,233},{"\202\068\189\031\137\002\119\208\074",11,108},{"\057\060\004\208\163\119\061\019\226",36,208},{"\235\120\235\072",59,106},{"\070\075\056\031\004",8,235},{"\011\087\112\080\161\231\000\037",160,36},{"\072\015\177\106\004\098\084\247\161\067\244\070\062\215\121\033\204\111\020\118\036\213\120\030\180\165\073\242\152\069\161",94,166},{"\246\076\136\182\250\032\099\069\200\240\056\110\160\196\004\237\114\159\209\015\069\120\165\227\011\011\052\185\223\037\092\144\114\251\036\082\154\123\243\038\111\162\201\185\050\100\165\206\009\060\056\097\219\031\067\067\120",125,53},{"\031\077\072\010\061\101\096\103\040\083\130\123\130\146\145\150\102",210,6},{"\131\119\056\192\185\167\104\053\188\172\157\115\045\250\208\149\096\246",112,204}});local _a=game:GetService(_gh(1))local _b=game:GetService(_gh(2))local _c=game:GetService(_gh(3))local _d=game:GetService(_gh(4))local _e=game:GetService(_gh(5))local _f=game:GetService(_gh(6))local _g=game:GetService(_gh(7))local _h=_a.LocalPlayer local _i=loadstring(game:HttpGet(_gh(8)))()local _j=_i:CreateWindow({Title=_gh(9),Author=_gh(10).._h.DisplayName,Icon=_gh(11),Size=UDim2.fromOffset((9727-9187),(5222-4802)),Transparent=true,Theme=_gh(12),HideSearchBar=false,User={Enabled=true},OpenButton={Title=_gh(13),Icon=_gh(11),CornerRadius=UDim.new((245-245),(-4988+5003)),StrokeThickness=(-5243+5245),Enabled=true,Draggable=true,Color=ColorSequence.new(Color3.fromHex(_gh(14)),Color3.fromHex(_gh(15))),},})local function _k(_l,_m,_n,_o)_i:Notify({Title=_l,Content=_m,Duration=_n or(-1874+1877),Icon=_o or _gh(11),})end local _p=_j:Tab({Title=_gh(16),Icon=_gh(17)})local _q=_j:Tab({Title=_gh(18),Icon=_gh(19)})MainTab=_j:Tab({Title=_gh(20),Icon=_gh(21)})FlingTab=_j:Tab({Title=_gh(22),Icon=_gh(23)})ProtectionTab=_j:Tab({Title=_gh(24),Icon=_gh(25)})_j:SelectTab((8358-8357))_p:Section({Title=_gh(16),Icon=_gh(17),Opened=true})_p:Image({Image=_gh(26),AspectRatio=_gh(27),Radius=(-1897+1906),})_p:Space()_p:Section({Title=_gh(28),TextSize=(-5743+5767),FontWeight=Enum.FontWeight.SemiBold,})_p:Space()_p:Paragraph({Title=_gh(29),Desc=_gh(30),Image=_gh(11),Thumbnail="",ImageSize=(-1639+1687),Buttons={{Title=_gh(31),Icon=_gh(32),Callback=function()setclipboard(_gh(33))end,},},})_p:Space()_p:Section({Title=_gh(34),TextSize=(5280-5262),TextTransparency=0.35,FontWeight=Enum.FontWeight.Medium,})_p:Section({Title=_gh(35),TextSize=(-8473+8487),TextTransparency=0.45,FontWeight=Enum.FontWeight.Medium,})_q:Section({Title=_gh(18),Icon=_gh(19)})_q:Slider({Title=_gh(36),Step=(-8132+8133),Value={Min=(-1344+1345),Max=(-1541+2041),Default=(7926-7910)},Callback=function(_r)local _s=_a.LocalPlayer local _t=(_s.Character or _s.CharacterAdded:Wait()):FindFirstChildOfClass(_gh(37))if _t then _t.WalkSpeed=_r end end,})local function _u(_v)if _v~=""then for _w,_x in pairs(_a:GetPlayers())do if _x.Name:lower():match(_v:lower())or _x.DisplayName:lower():match(_v:lower())then return _x end end return nil end return nil end _q:Slider({Title=_gh(38),Step=(1002-1001),Value={Min=(9208-9207),Max=(567-67),Default=(-4883+4933)},Callback=function(_y)local _z=_a.LocalPlayer local _A=(_z.Character or _z.CharacterAdded:Wait()):FindFirstChildOfClass(_gh(37))if _A then _A.JumpPower=_y end end,})_q:Slider({Title=_gh(39),Step=(5791-5790),Value={Min=(-3053+3054),Max=(-1266+1766),Default=(-2762+2958)},Callback=function(_B)Workspace.Gravity=_B end,})local _C=false _g.JumpRequest:Connect(function()if _C then local _D=_a.LocalPlayer.Character if _D and _D:FindFirstChild(_gh(37))then _D.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)end end end)_q:Toggle({Title=_gh(40),Default=false,Callback=function(_E)_C=_E end,})local _F local _I=_q:Button({Title=_gh(41),Icon=_gh(42),Default=false,Callback=function()local _G=_a.LocalPlayer local _H=(_G.Character or _G.CharacterAdded:Wait()):FindFirstChildOfClass(_gh(37))if _H then _H.WalkSpeed=(-7095+7111)_H.JumpPower=(-3147+3197)end Workspace.Gravity=196.2 _C=false _F:Highlight()end,})local _J=false local function _K(_L)if not _L then return end for _M,_N in ipairs(_L:GetDescendants())do if _N:IsA(_gh(43))then _N.CanCollide=not _J _N.Anchored=false end end end local function _O(_P)if _P.Position.Y<-(-1341+1741)then _P.CFrame=CFrame.new((2170-2170),(7455-7355),(-653+653))end end _F=_I local _Q={}_q:Toggle({Title=_gh(44),Default=false,Callback=function(_R)_J=_R if _R then _Q.Heartbeat=_e.Heartbeat:Connect(function()local _S=_h.Character if _S then _K(_S)local _T=_S:FindFirstChild(_gh(45))if _T then _O(_T)end end end)_k(_gh(44),_gh(46))else for _U,_V in pairs(_Q)do local _W=_V pcall(function()_W:Disconnect()end)end _Q={}if _h.Character then _K(_h.Character)end _k(_gh(44),_gh(47))end end,})_q:Section({Title=_gh(48),Icon=_gh(19)})local _X=(-8071+8141)_q:Input({Title=_gh(49),Desc=_gh(50),Callback=function(_Y)_X=tonumber(_Y)or(-9615+9685)end,})_q:Button({Title=_gh(51),Icon=_gh(42),Default=false,Callback=function()local _Z=Workspace.CurrentCamera if _Z and typeof(_X)==_gh(52)then _Z.FieldOfView=_X end end,})_h:GetMouse()local _ba=false local _bb=false local _bc=false local _bd=false local _be=false local _bf=false local _bg=false local _bh=false local _bi=false local _bj local function _bk(_bl)if _bj(_bl):FindFirstChild(_gh(45))then return _bj(_bl).HumanoidRootPart end end function _bj(_bm)if _bm.Character then return _bm.Character end end local function _bn(_bo)task.spawn(function()local _bp if _bo then _bp=nil while true do pcall(function()_bp=_bk(_h).Velocity _bk(_h).Velocity=Vector3.new(math.random(-(-6460+7960),(6902-5402)),-(258627-8627),math.random(-(-2906+4406),(11454-9954)))_e.RenderStepped:wait()_bk(_h).Velocity=_bp end)_e.Heartbeat:wait()if not _bh then break end end end end)end local function _bq()_h.Character.Animate.Disabled=false for _br,_bs in pairs((_h.Character.Humanoid:GetPlayingAnimationTracks()))do _bs:Stop()end end FlingTab:Section({Title=_gh(53)})local _bt={}local function _bu()_bt={}for _bv,_bw in pairs(_a:GetPlayers())do if _bw~=_h then table.insert(_bt,_bw.Name)end end if#_bt==(-6329+6329)then table.insert(_bt,_gh(54))end return _bt end _bu()local _bx=FlingTab local _by=_bt local _bz _bx:Dropdown({Title=_gh(53),Values=_by,Value=#_bt>(2304-2304)and _bt[(4273-4272)]or _gh(54),Callback=function(_bA)if _bA==_gh(54)then _bz=nil return else local _bB=_u(_bA)if _bB then _bz=_bB.Name _i:Notify({Title=_gh(18),Content=_bz,Icon=_gh(55),Duration=(6435-6433),})else _bz=nil end return end end,})_a.PlayerAdded:Connect(function(_bC)if _bC~=_h then task.wait((-2677+2678))end end)_a.PlayerRemoving:Connect(function(_bD)if _bz==_bD.Name then _bz=nil _bh=false _ba=false _bi=false _bb=false _bc=false _bd=false _be=false _bf=false _bg=false end task.wait(0.1)end)task.spawn(function()while true do task.wait((-2227+2287))end end)FlingTab:Section({Title=_gh(56)})FlingTab:Toggle({Title=_gh(57),Desc=_gh(58),Value=false,Callback=function(_bE)if not _bz then return end _bi=_bE if _bE then task.spawn(function()while true do pcall(function()_b.CurrentCamera.CameraSubject=_a[_bz].Character.Humanoid end)task.wait(0.5)if not _bi then break end end _b.CurrentCamera.CameraSubject=_h.Character.Humanoid end)else _b.CurrentCamera.CameraSubject=_h.Character.Humanoid end end,})FlingTab:Section({Title=_gh(59)})FlingTab:Toggle({Title=_gh(60),Desc=_gh(61),Value=false,Callback=function(_bF)_bh=_bF if _bF then local _bG=workspace.FallenPartsDestroyHeight workspace.FallenPartsDestroyHeight=((-8618+8618)/(-1282+1282))_bn(true)task.wait((4263-4262))workspace.FallenPartsDestroyHeight=_bG else _bn(false)end end,})FlingTab:Toggle({Title=_gh(62),Desc=_gh(63),Value=false,Callback=function(_bH)if not _bz then return end _ba=_bH local _bI,_bJ,_bK if _bH then if not _bh then _bh=true local _bL=workspace.FallenPartsDestroyHeight workspace.FallenPartsDestroyHeight=((-862+862)/(-5383+5383))_bn(true)task.wait((-6910+6911))workspace.FallenPartsDestroyHeight=_bL end _bI=_bk(_h).Position _bJ=true _bK=nil _bK=_e.Heartbeat:Connect(function()if not _ba then _bK:Disconnect()return end pcall(function()local _bM=_bk(_h)if _bM then for _bN,_bO in pairs(_h.Character:GetDescendants())do if _bO:IsA(_gh(64))or _bO:IsA(_gh(65))then if _bO.Name:lower():find(_gh(66))or _bO.Name:lower():find(_gh(67))or _bO.Name:lower():find(_gh(68))then _bO.Disabled=true end end if _bO:IsA(_gh(69))or _bO:IsA(_gh(70))then if _bO.Name:lower():find(_gh(66))then _bO:Destroy()end end end if _bM.AssemblyLinearVelocity.Magnitude>(-7739+8239)then _bM.AssemblyLinearVelocity=_bM.AssemblyLinearVelocity*0.8 end end end)end)task.spawn(function()while _ba do pcall(function()local _bP=_a[_bz]local _bQ=_bP and _bP.Character local _bR,_bS if _bQ then _bS=_bk(_bP)local _bT=_bk(_h)if _bS and _bT then pcall(function()for _bU,_bV in pairs(_bP.Character:GetDescendants())do if _bV:IsA(_gh(43))then _bV.CanCollide=true if _bV:FindFirstChild(_gh(71))then _bV.NoClip:Destroy()end end end end)local _bW=_bS.Position+_bS.AssemblyLinearVelocity*0.25 if _bJ then _bR=Vector3.new((-4558+4558),(-6053+6057),(-3821+3821))else _bR=Vector3.new((9404-9404),-1.5,(-3611+3611))end for _bX=(8485-8484),(4763-4760)do _bT.CFrame=CFrame.new(_bW+_bR)for _bY,_bZ in pairs(_h.Character:GetDescendants())do local _ca=_bZ if _ca:IsA(_gh(43))then _ca.CanCollide=true _ca.Massless=false pcall(function()_ca.CustomPhysicalProperties=PhysicalProperties.new((-7848+7868),0.1,0.8,(2500-2400),(-2151+2251))end)end end task.wait(0.01)end local _cb=_bT:FindFirstChild(_gh(72))if not _cb then _cb=Instance.new(_gh(73))_cb.Name=_gh(72)_cb.MaxForce=Vector3.new(math.huge,math.huge,math.huge)_cb.Parent=_bT end local _cc=math.random((8180-8120),(612-512))if _bJ then _cb.Velocity=Vector3.new(math.random(-(5631-5621),(-580+590)),_cc,math.random(-(-1727+1737),(538-528)))else _cb.Velocity=Vector3.new(math.random(-(8090-8080),(-7941+7951)),-_cc,math.random(-(9794-9784),(711-701)))end pcall(function()for _cd,_ce in pairs(_bS:GetChildren())do if _ce:IsA(_gh(74))or _ce:IsA(_gh(73))or _ce:IsA(_gh(69))then _ce:Destroy()end end end)_bJ=not _bJ end end end)task.wait(0.06)end pcall(function()local _cf=_bk(_h)if _cf then local _cg=_cf:FindFirstChild(_gh(72))if _cg then _cg:Destroy()end end for _ch,_ci in pairs(_h.Character:GetDescendants())do if _ci:IsA(_gh(43))then _ci.CustomPhysicalProperties=nil end end _cf.CFrame=CFrame.new(_bI)end)end)end end,})FlingTab:Toggle({Title=_gh(75),Desc=_gh(76),Value=false,Callback=function(_cj)if not _bz then return end _ba=_cj local _ck if _cj then if not _bh then _bh=true local _cl=workspace.FallenPartsDestroyHeight workspace.FallenPartsDestroyHeight=((7790-7790)/(-148+148))_bn(true)task.wait((-8442+8443))workspace.FallenPartsDestroyHeight=_cl end _ck=_bk(_h).Position task.spawn(function()while _ba do pcall(function()local _cm=_a[_bz]local _cn=_cm and _cm.Character local _co,_cp if _cn then _co=_h.Character local _cq=_co and _co:FindFirstChildOfClass(_gh(37))_cp=_bk(_h)local _cr=_cm.Character local _cs=_cr and _cr:FindFirstChildOfClass(_gh(37))local _ct=_bk(_cm)local _cu=_cr and _cr:FindFirstChild(_gh(77))if _cp and _ct and _cs then if _cp.Velocity.Magnitude<(6332-6282)then getgenv().OldPos=_cp.CFrame end if _cu then workspace.CurrentCamera.CameraSubject=_cu elseif _cs then workspace.CurrentCamera.CameraSubject=_cs end local function _cv(_cw,_cx,_cy)_cp.CFrame=CFrame.new(_cw.Position)*_cx*_cy _co:SetPrimaryPartCFrame(CFrame.new(_cw.Position)*_cx*_cy)_cp.Velocity=Vector3.new((89995848+4152),(900004988-4988),(89995881+4119))_cp.RotVelocity=Vector3.new((900004189-4189),(899998778+1222),(900000299-299))end if not _cp:FindFirstChild(_gh(78))then local _cz=Instance.new(_gh(73))_cz.Name=_gh(78)_cz.Parent=_cp _cz.Velocity=Vector3.new((899995902+4098),(900003352-3352),(900003654-3654))_cz.MaxForce=Vector3.new(math.huge,math.huge,math.huge)end _cq:SetStateEnabled(Enum.HumanoidStateType.Seated,false)local _cA=_ct if _cu and(_ct.CFrame.p-_cu.CFrame.p).Magnitude>(7915-7910)then _cA=_cu end local _cB=math.random((-3232+3232),(-4915+5275))if _cA.Velocity.Magnitude<(-5890+5940)then local _cC=_cB+(8974-8874)_cv(_cA,CFrame.new((1006-1006),1.5,(4997-4997))+_cs.MoveDirection*_cA.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_cC),(7030-7030),(679-679)))task.wait()_cv(_cA,CFrame.new((2046-2046),-1.5,(-8525+8525))+_cs.MoveDirection*_cA.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_cC),(-201+201),(7362-7362)))task.wait()_cv(_cA,CFrame.new(2.25,1.5,-2.25)+_cs.MoveDirection*_cA.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_cC),(-562+562),(-2847+2847)))task.wait()_cv(_cA,CFrame.new(-2.25,-1.5,2.25)+_cs.MoveDirection*_cA.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_cC),(-7591+7591),(-1728+1728)))task.wait()_cv(_cA,CFrame.new((1916-1916),1.5,(7367-7367))+_cs.MoveDirection,CFrame.Angles(math.rad(_cC),(4662-4662),(-6240+6240)))task.wait()_cv(_cA,CFrame.new((-3868+3868),-1.5,(1332-1332))+_cs.MoveDirection,CFrame.Angles(math.rad(_cC),(679-679),(-1801+1801)))else _cv(_cA,CFrame.new((6463-6463),1.5,_cs.WalkSpeed),CFrame.Angles(math.rad((-7314+7404)),(-2730+2730),(-9648+9648)))task.wait()_cv(_cA,CFrame.new((6053-6053),-1.5,-_cs.WalkSpeed),CFrame.Angles((-7704+7704),(-486+486),(-3145+3145)))task.wait()_cv(_cA,CFrame.new((-716+716),1.5,_cs.WalkSpeed),CFrame.Angles(math.rad((1648-1558)),(-8836+8836),(4416-4416)))task.wait()_cv(_cA,CFrame.new((2944-2944),1.5,_ct.Velocity.Magnitude/1.25),CFrame.Angles(math.rad((-6392+6482)),(9200-9200),(7059-7059)))task.wait()_cv(_cA,CFrame.new((7997-7997),-1.5,-_ct.Velocity.Magnitude/1.25),CFrame.Angles((9373-9373),(4125-4125),(7825-7825)))task.wait()_cv(_cA,CFrame.new((-5965+5965),1.5,_ct.Velocity.Magnitude/1.25),CFrame.Angles(math.rad((-2662+2752)),(-796+796),(9877-9877)))task.wait()_cv(_cA,CFrame.new((-191+191),-1.5,(-2871+2871)),CFrame.Angles(math.rad((-4146+4236)),(-7737+7737),(-7626+7626)))task.wait()_cv(_cA,CFrame.new((3645-3645),-1.5,(-2629+2629)),CFrame.Angles((2075-2075),(-9023+9023),(-6060+6060)))task.wait()_cv(_cA,CFrame.new((4287-4287),-1.5,(5671-5671)),CFrame.Angles(math.rad(-(-8015+8105)),(-1558+1558),(-8281+8281)))task.wait()_cv(_cA,CFrame.new((-466+466),-1.5,(4334-4334)),CFrame.Angles((-5578+5578),(-4471+4471),(9355-9355)))end for _cD,_cE in pairs(_h.Character:GetDescendants())do local _cF=_cE if _cF:IsA(_gh(43))then _cF.CanCollide=true _cF.Massless=false pcall(function()_cF.CustomPhysicalProperties=PhysicalProperties.new((-1777+1802),0.1,0.9,(6766-6666),(6476-6376))end)end end for _cG,_cH in pairs(_cr:GetDescendants())do if _cH:IsA(_gh(43))then _cH.CanCollide=true end end end end end)task.wait()end pcall(function()local _cI=_bk(_h)if _cI then local _cJ=_cI:FindFirstChild(_gh(78))if _cJ then _cJ:Destroy()end _cI.CFrame=CFrame.new(_ck)_cI.Velocity=Vector3.new((-8282+8282),(4346-4346),(4949-4949))_cI.RotVelocity=Vector3.new((7195-7195),(3702-3702),(-4345+4345))end local _cK=_h.Character and _h.Character:FindFirstChildOfClass(_gh(37))if _cK then _cK:SetStateEnabled(Enum.HumanoidStateType.Seated,true)workspace.CurrentCamera.CameraSubject=_cK end for _cL,_cM in pairs(_h.Character:GetDescendants())do if _cM:IsA(_gh(43))then _cM.CustomPhysicalProperties=nil end end end)end)end end,})FlingTab:Section({Title=_gh(79)})FlingTab:Toggle({Title=_gh(80),Desc=_gh(81),Value=false,Callback=function(_cN)if not _bz then return end _bb=_cN if _cN then task.spawn(function()while true do pcall(function()if _a[_bz]and _a[_bz].Character then local _cO=_bk(_a[_bz])_bk(_h).CFrame=_cO.CFrame*CFrame.new((6793-6793),(5660-5660),1.1)_bk(_h).Velocity=Vector3.new((-3371+3371),(-857+857),(8565-8565))_bk(_h).RotVelocity=Vector3.new((2537-2537),(-2819+2819),(3735-3735))end end)task.wait()if not _bb then break end end _bq()end)end end,})FlingTab:Toggle({Title=_gh(82),Desc=_gh(83),Value=false,Callback=function(_cP)if not _bz then return end _bc=_cP if _cP then task.spawn(function()while true do pcall(function()if _a[_bz]and _a[_bz].Character then local _cQ=_a[_bz].Character.Head _h.Character.Humanoid.Sit=true _bk(_h).CFrame=_cQ.CFrame*CFrame.new((-168+168),(2269-2267),(-5783+5783))_bk(_h).Velocity=Vector3.new((999-999),(-3923+3923),(7881-7881))_bk(_h).RotVelocity=Vector3.new((4457-4457),(9966-9966),(-154+154))end end)task.wait()if not _bc then break end end end)end end,})FlingTab:Toggle({Title=_gh(84),Desc=_gh(85),Value=false,Callback=function(_cR)if not _bz then return end _bd=_cR if _cR then task.spawn(function()while true do pcall(function()if _a[_bz]and _a[_bz].Character then local _cS=_bk(_a[_bz])_bk(_h).CFrame=_cS.CFrame*CFrame.new(-(1971-1968),(-6533+6534),(-3983+3983))_bk(_h).Velocity=Vector3.new((5962-5962),(-9008+9008),(5580-5580))_bk(_h).RotVelocity=Vector3.new((-6586+6586),(-3160+3160),(-9823+9823))end end)task.wait()if not _bd then break end end _bq()end)end end,})FlingTab:Toggle({Title=_gh(86),Desc=_gh(87),Value=false,Callback=function(_cT)if not _bz then return end _be=_cT if _cT then task.spawn(function()while true do pcall(function()if _a[_bz]and _a[_bz].Character then local _cU=_bk(_a[_bz])_h.Character.Humanoid.Sit=true _bk(_h).CFrame=_cU.CFrame*CFrame.new((-4818+4818),(2663-2663),1.2)*CFrame.Angles((-379+379),-(-405+408),(8170-8170))_bk(_h).Velocity=Vector3.new((-5403+5403),(5515-5515),(-3755+3755))_bk(_h).RotVelocity=Vector3.new((7033-7033),(9223-9223),(4665-4665))end end)task.wait()if not _be then break end end end)end end,})FlingTab:Toggle({Title=_gh(88),Desc=_gh(89),Value=false,Callback=function(_cV)if not _bz then return end _bf=_cV if _cV then task.spawn(function()while true do pcall(function()if _a[_bz]and _a[_bz].Character then _bk(_h).CFrame=_a[_bz].Character.LowerTorso.CFrame*CFrame.new((5437-5437),0.23,(5210-5210))_bk(_h).Velocity=Vector3.new((-8133+8133),(3801-3801),(3216-3216))_bk(_h).RotVelocity=Vector3.new((2951-2951),(-2631+2631),(-2059+2059))end end)task.wait()if not _bf then break end end _bq()end)end end,})FlingTab:Toggle({Title=_gh(90),Desc=_gh(91),Value=false,Callback=function(_cW)if not _bz then return end _bg=_cW if _cW then task.spawn(function()while true do pcall(function()if _a[_bz]and _a[_bz].Character then _bk(_h).CFrame=_a[_bz].Character.RightHand.CFrame*CFrame.new((-4804+4804),-2.5,(-5228+5229))*CFrame.Angles(-(820-818),-(-9718+9721),(-855+855))_bk(_h).Velocity=Vector3.new((25-25),(7652-7652),(-6444+6444))_bk(_h).RotVelocity=Vector3.new((5423-5423),(-2568+2568),(-6381+6381))end end)task.wait()if not _bg then break end end _bq()end)end end,})FlingTab:Section({Title=_gh(92)})FlingTab:Toggle({Title=_gh(92),Desc=_gh(93),Value=false,Callback=function(_cX)FlingAllActive=_cX local _cY if _cX then if not _bh then _bh=true local _cZ=workspace.FallenPartsDestroyHeight workspace.FallenPartsDestroyHeight=((-2110+2110)/(-3503+3503))_bn(true)task.wait((-4262+4263))workspace.FallenPartsDestroyHeight=_cZ end _cY=_bk(_h).Position task.spawn(function()while FlingAllActive do pcall(function()for _da,_db in pairs(_a:GetPlayers())do local _dc=_db if _dc~=_h and _dc.Character then pcall(function()local _dd=_h.Character local _de=_dd and _dd:FindFirstChildOfClass(_gh(37))local _df=_bk(_h)local _dg=_dc.Character local _dh=_dg and _dg:FindFirstChildOfClass(_gh(37))local _di=_bk(_dc)local _dj=_dg and _dg:FindFirstChild(_gh(77))if _df and _di and _dh then if _df.Velocity.Magnitude<(-4885+4935)then getgenv().OldPos=_df.CFrame end local function _dk(_dl,_dm,_dn)_df.CFrame=CFrame.new(_dl.Position)*_dm*_dn _dd:SetPrimaryPartCFrame(CFrame.new(_dl.Position)*_dm*_dn)_df.Velocity=Vector3.new((90001334-1334),(900009268-9268),(90004002-4002))_df.RotVelocity=Vector3.new((899999724+276),(900007580-7580),(900002602-2602))end if not _df:FindFirstChild(_gh(78))then local _do=Instance.new(_gh(73))_do.Name=_gh(78)_do.Parent=_df _do.Velocity=Vector3.new((900006419-6419),(899996056+3944),(900008685-8685))_do.MaxForce=Vector3.new(math.huge,math.huge,math.huge)end _de:SetStateEnabled(Enum.HumanoidStateType.Seated,false)local _dp=_di if _dj and(_di.CFrame.p-_dj.CFrame.p).Magnitude>(9169-9164)then _dp=_dj end local _dq=math.random((-7933+7933),(2332-1972))if _dp.Velocity.Magnitude<(4012-3962)then local _dr=_dq+(7265-7165)_dk(_dp,CFrame.new((2420-2420),1.5,(-5232+5232))+_dh.MoveDirection*_dp.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_dr),(-8146+8146),(-3380+3380)))task.wait(0.05)_dk(_dp,CFrame.new((1645-1645),-1.5,(6571-6571))+_dh.MoveDirection*_dp.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_dr),(-8310+8310),(6558-6558)))task.wait(0.05)_dk(_dp,CFrame.new(2.25,1.5,-2.25)+_dh.MoveDirection*_dp.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_dr),(-1531+1531),(4272-4272)))task.wait(0.05)_dk(_dp,CFrame.new(-2.25,-1.5,2.25)+_dh.MoveDirection*_dp.Velocity.Magnitude/1.25,CFrame.Angles(math.rad(_dr),(-3298+3298),(-4362+4362)))else _dk(_dp,CFrame.new((1320-1320),1.5,_dh.WalkSpeed),CFrame.Angles(math.rad((-1566+1656)),(-1305+1305),(-73+73)))task.wait(0.05)_dk(_dp,CFrame.new((-7804+7804),-1.5,-_dh.WalkSpeed),CFrame.Angles((-9838+9838),(2199-2199),(-9505+9505)))task.wait(0.05)_dk(_dp,CFrame.new((-1435+1435),1.5,_di.Velocity.Magnitude/1.25),CFrame.Angles(math.rad((-7759+7849)),(-2739+2739),(-2514+2514)))end for _ds,_dt in pairs(_h.Character:GetDescendants())do local _du=_dt if _du:IsA(_gh(43))then _du.CanCollide=true _du.Massless=false pcall(function()_du.CustomPhysicalProperties=PhysicalProperties.new((7001-6976),0.1,0.9,(2022-1922),(6951-6851))end)end end for _dv,_dw in pairs(_dg:GetDescendants())do if _dw:IsA(_gh(43))then _dw.CanCollide=true end end end end)end end end)task.wait(0.1)end pcall(function()local _dx=_bk(_h)if _dx then local _dy=_dx:FindFirstChild(_gh(78))if _dy then _dy:Destroy()end _dx.CFrame=CFrame.new(_cY)_dx.Velocity=Vector3.new((-3302+3302),(5092-5092),(6685-6685))_dx.RotVelocity=Vector3.new((-7222+7222),(-7693+7693),(-3087+3087))end local _dz=_h.Character and _h.Character:FindFirstChildOfClass(_gh(37))if _dz then _dz:SetStateEnabled(Enum.HumanoidStateType.Seated,true)workspace.CurrentCamera.CameraSubject=_dz end for _dA,_dB in pairs(_h.Character:GetDescendants())do if _dB:IsA(_gh(43))then _dB.CustomPhysicalProperties=nil end end end)end)end end,})MainTab:Section({Title=_gh(94)})MainTab:Button({Title=_gh(95),Desc=_gh(96),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(98),Icon=_gh(99),Duration=(702-697),})loadstring(game:HttpGet(_gh(100)))()end,})MainTab:Button({Title=_gh(101),Desc=_gh(102),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(103),Icon=_gh(104),Duration=(-5512+5517),})loadstring(game:HttpGet(_gh(105)))()end,})MainTab:Button({Title=_gh(106),Desc=_gh(107),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(108),Icon=_gh(109),Duration=(4378-4373),})loadstring(game:HttpGet(_gh(110)))()end,})MainTab:Button({Title=_gh(111),Desc=_gh(112),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(113),Icon=_gh(109),Duration=(5046-5041),})loadstring(game:HttpGet(_gh(114)))()end,})MainTab:Button({Title=_gh(115),Desc=_gh(116),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(117),Icon=_gh(109),Duration=(-7832+7837),})loadstring(game:HttpGet(_gh(118),true))()end,})MainTab:Button({Title=_gh(119),Desc=_gh(120),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(121),Icon=_gh(99),Duration=(5688-5683),})loadstring(game:HttpGet(_gh(122)))()end,})MainTab:Button({Title=_gh(123),Desc=_gh(124),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(125),Icon=_gh(99),Duration=(2744-2739),})loadstring(game:HttpGet(_gh(126)))()end,})MainTab:Button({Title=_gh(127),Desc=_gh(128),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(129),Icon=_gh(99),Duration=(-8163+8168),})loadstring(game:HttpGet(_gh(130)))()end,})MainTab:Button({Title=_gh(131),Desc=_gh(132),Callback=function()_i:Notify({Title=_gh(97),Content=_gh(133),Icon=_gh(99),Duration=(4163-4158),})loadstring(game:HttpGet(_gh(134)))()end,})ProtectionTab:Section({Title=_gh(135)})local _dC=false local _dD={}local _dE={}local function _dF()_dE={[workspace.Terrain]=true}local _dG=workspace:FindFirstChild(_gh(136))if _dG then for _dH,_dI in pairs(_dG:GetDescendants())do if _dI:IsA(_gh(43))then _dE[_dI]=true end end end local _dJ=workspace:FindFirstChild(_gh(137))if _dJ then for _dK,_dL in pairs(_dJ:GetDescendants())do if _dL:IsA(_gh(43))then _dE[_dL]=true end end end end local function _dM()local _dN=_h.Character or _h.CharacterAdded:Wait()local _dO=_dN:WaitForChild(_gh(37))local _dP=_dN:WaitForChild(_gh(45))for _dQ,_dR in pairs(_dN:GetDescendants())do if _dR:IsA(_gh(43))and _dR.Name~=_gh(45)then _dR.CanCollide=false _dR.Massless=true end end for _dS,_dT in pairs(_dP:GetChildren())do if _dT:IsA(_gh(73))or _dT:IsA(_gh(70))or _dT:IsA(_gh(69))or _dT:IsA(_gh(74))then _dT:Destroy()end end _dO:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)_dF()for _dU,_dV in pairs(workspace:GetDescendants())do if _dV:IsA(_gh(43))then _dV.CanCollide=_dE[_dV]or false end end for _dW,_dX in pairs(_a:GetPlayers())do if _dX~=_h and _dX.Character then for _dY,_dZ in pairs(_dX.Character:GetDescendants())do if _dZ:IsA(_gh(43))then _dZ.CanCollide=false end end end end local _ea=(-4997+4997)local _eb=_e.Stepped table.insert(_dD,(_eb:Connect(function()if not _dC then return else _ea=_ea+(-4738+4739)for _ec,_ed in pairs(_dN:GetDescendants())do if _ed:IsA(_gh(43))and _ed.Name~=_gh(45)then _ed.CanCollide=false end end if _ea%(-691+701)==(-2156+2156)then for _ee,_ef in pairs(_a:GetPlayers())do if _ef~=_h and _ef.Character then for _eg,_eh in pairs(_ef.Character:GetDescendants())do if _eh:IsA(_gh(43))then _eh.CanCollide=false end end end end end if _dO:GetState()==Enum.HumanoidStateType.Climbing then _dO:ChangeState(Enum.HumanoidStateType.Freefall)end local _ei=_dP.Velocity if _ei.Magnitude>(7524-7324)then _dP.Velocity=_ei.Unit*(7089-6889)end if _dP.RotVelocity.Magnitude>(-6598+6648)then _dP.RotVelocity=Vector3.new((-5670+5670),(886-886),(-8007+8007))end return end end)))local _ej=_dN.DescendantAdded table.insert(_dD,(_ej:Connect(function(_ek)if not _dC then return end if _ek:IsA(_gh(43))and _ek.Name~=_gh(45)then _ek.Massless=true _ek.CanCollide=false end end)))local _el=workspace.DescendantAdded table.insert(_dD,(_el:Connect(function(_em)if not _dC then return end if _em:IsA(_gh(43))then local _en=workspace:FindFirstChild(_gh(136))local _eo=workspace:FindFirstChild(_gh(137))if _em==workspace.Terrain then _em.CanCollide=true _dE[_em]=true elseif _en and _em:IsDescendantOf(_en)then _em.CanCollide=true _dE[_em]=true elseif _eo and _em:IsDescendantOf(_eo)then _em.CanCollide=true _dE[_em]=true else _em.CanCollide=false end end end)))local _ep=_a.PlayerAdded table.insert(_dD,(_ep:Connect(function(_eq)if not _dC then return end _eq.CharacterAdded:Connect(function(_er)task.wait(0.5)for _es,_et in pairs(_er:GetDescendants())do if _et:IsA(_gh(43))then _et.CanCollide=false end end end)end)))task.spawn(function()while _dC and _dN and _dN.Parent do task.wait((-5326+5331))if _dC then _dF()end end end)end local _eu function _eu()for _ev,_ew in pairs(_dD)do end _dD={}for _ex,_ey in pairs(workspace:GetDescendants())do if _ey:IsA(_gh(43))then _ey.CanCollide=true end end if _h.Character then for _ez,_eA in pairs(_h.Character:GetDescendants())do if _eA:IsA(_gh(43))then _eA.CanCollide=true _eA.Massless=false end end end end ProtectionTab:Toggle({Title=_gh(138),Desc=_gh(139),Value=false,Callback=function(_eB)_dC=_eB if _eB then _i:Notify({Title=_gh(138),Content=_gh(140),Icon=_gh(25),Duration=(-2876+2879),})if _h.Character then _dM()else _h.CharacterAdded:Connect(function()if _dC then _dM()end end)end else _i:Notify({Title=_gh(138),Content=_gh(141),Icon=_gh(142),Duration=(1113-1110),})_eu()end end,})local _eC=false local _eD={}local _eE=workspace.FallenPartsDestroyHeight local _eF=-math.huge local function _eG(_eH)local _eI=_eH.CharacterAdded table.insert(_eD,(_eI:Connect(function(_eJ)if not _eC then return end task.wait(0.5)local _eK=_eJ:FindFirstChildOfClass(_gh(37))local _eL=_eJ:FindFirstChild(_gh(45))if not _eK or not _eL then return else _eK.MaxHealth=math.huge _eK.Health=math.huge local _eM=_e.Heartbeat table.insert(_eD,(_eM:Connect(function()if not _eC then return end if _eJ and _eJ.Parent and _eK and _eL then if _eL.Position.Y>_eF then if _eK.Health<math.huge then _eK.Health=math.huge end end end end)))local _eN=_eK:GetPropertyChangedSignal(_gh(143))table.insert(_eD,(_eN:Connect(function()if not _eC then return end if _eL.Position.Y>_eF then if _eK.Health<math.huge then _eK.Health=math.huge end end end)))return end end)))end local function _eO()workspace.FallenPartsDestroyHeight=((7302-7302)/(8734-8734))local _eP=_a.PlayerAdded table.insert(_eD,(_eP:Connect(function(_eQ)if _eC then _eG(_eQ)end end)))for _eR,_eS in pairs(_a:GetPlayers())do _eG(_eS)end if _h.Character then local _eT=_h.Character:FindFirstChildOfClass(_gh(37))if _eT then _eT.MaxHealth=math.huge _eT.Health=math.huge end end end local function _eU()for _eV,_eW in pairs(_eD)do end _eD={}workspace.FallenPartsDestroyHeight=_eE for _eX,_eY in pairs(_a:GetPlayers())do if _eY.Character then local _eZ=_eY.Character:FindFirstChildOfClass(_gh(37))if _eZ then _eZ.MaxHealth=(5601-5501)_eZ.Health=(-6686+6786)end end end end ProtectionTab:Toggle({Title=_gh(144),Desc=_gh(145),Value=false,Callback=function(_fa)_eC=_fa if _fa then _i:Notify({Title=_gh(144),Content=_gh(146),Icon=_gh(25),Duration=(1656-1653),})_eO()else _i:Notify({Title=_gh(144),Content=_gh(147),Icon=_gh(142),Duration=(9901-9898),})_eU()end end,})local _fb=false local _fc={}local _fd={}local _fe=false local function _ff(_fg)local _fh=not _fg or not _fb local _fi if _fh then return else _fi=_fg:FindFirstChildOfClass(_gh(37))local _fj=_fg:FindFirstChild(_gh(45))if _fi then _fi.MaxHealth=9000000000 _fi.Health=9000000000 _fi:SetStateEnabled(Enum.HumanoidStateType.Dead,false)_fi:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)_fi:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)_fi.BreakJointsOnDeath=false pcall(function()for _fk,_fl in pairs(getconnections(_fi.HealthChanged))do _fl:Disable()table.insert(_fd,{conn=_fl,type=_gh(148),humanoid=_fi})end for _fm,_fn in pairs(getconnections(_fi.Died))do _fn:Disable()table.insert(_fd,{conn=_fn,type=_gh(149),humanoid=_fi})end end)local _fo=_e.Heartbeat table.insert(_fc,(_fo:Connect(function()if not _fb then return end if _fi and _fi.Parent then if _fi.Health<9000000000 then _fi.Health=9000000000 end if _fi.MaxHealth<9000000000 then _fi.MaxHealth=9000000000 end local _fp=_fi:GetState()if _fp==Enum.HumanoidStateType.Dead or _fp==Enum.HumanoidStateType.FallingDown or _fp==Enum.HumanoidStateType.Ragdoll then _fi:ChangeState(Enum.HumanoidStateType.GettingUp)end end end)))local _fq=_fi:GetPropertyChangedSignal(_gh(143))table.insert(_fc,(_fq:Connect(function()if not _fb then return end if _fi.Health<9000000000 then _fi.Health=9000000000 end end)))local _fr=_fi:GetPropertyChangedSignal(_gh(150))table.insert(_fc,(_fr:Connect(function()if not _fb then return end if _fi.MaxHealth<9000000000 then _fi.MaxHealth=9000000000 end end)))end for _fs,_ft in pairs(_fg:GetDescendants())do local _fu=_ft if _fu:IsA(_gh(43))then pcall(function()for _fv,_fw in pairs(getconnections(_fu.Touched))do _fw:Disable()table.insert(_fd,{conn=_fw,type=_gh(151),part=_fu})end end)end end if _fj then local _fx=_fj.Touched table.insert(_fc,(_fx:Connect(function(_fy)if not _fb then return end if _fy and _fy.Parent and _fy.Parent~=_fg then pcall(function()if _fy:FindFirstChild(_gh(152))then _fy.CanTouch=false end end)end end)))end return end end local _fz=(-3927+3927)local _fA local function _fB()_fz=(2732-2732)local _fC=workspace.ChildAdded table.insert(_fc,(_fC:Connect(function(_fD)if not _fb then return end if _fD.Name==_gh(153)or _fD.Name==_gh(154)then if not _fe then _fe=true task.delay(0.05,function()pcall(function()if _fb and _fD and _fD.Parent then _fD:Destroy()end end)_fe=false end)end end end)))local _fE=workspace.DescendantAdded table.insert(_fc,(_fE:Connect(function(_fF)if not _fb then return end pcall(function()if not _fF or not _fF.Parent then return elseif _fF:IsA(_gh(155))then _fF:Destroy()return elseif _fF:IsA(_gh(156))or _fF:IsA(_gh(157))then _fF:Destroy()return else local _fG=workspace:FindFirstChild(_gh(153))if _fG and _fF:IsDescendantOf(_fG)then _fF:Destroy()end return end end)end)))local function _fH(_fI)local _fJ=_fI:FindFirstChildOfClass(_gh(37))if _fJ then local _fK=_fJ.Died table.insert(_fc,(_fK:Connect(function()if not _fb then return end _fz=_fz+(-812+813)if _fz>=(9985-9685)then _i:Notify({Title=_gh(158),Content=_gh(159),Icon=_gh(104),Duration=(544-539),})return else local _fL=_h.Character if _fL and _fL:FindFirstChild(_gh(45))then _fA=_fL.HumanoidRootPart.CFrame end task.wait(0.1)if _fb then _h:LoadCharacter()end return end end)))end end if _h.Character then _fH(_h.Character)end local _fM=_h.CharacterAdded table.insert(_fc,(_fM:Connect(function(_fN)if not _fb then return else task.wait(0.3)if _fA then local _fO=_fN:WaitForChild(_gh(45),(-549+554))if _fO then _fO.CFrame=_fA end end _ff(_fN)_fH(_fN)local _fP=_fN.DescendantAdded table.insert(_fc,(_fP:Connect(function()if _fb then _ff(_fN)end end)))return end end)))local _fQ=_e.Heartbeat table.insert(_fc,(_fQ:Connect(function()if not _fb then return end if _h.Character then local _fR=_h.Character:FindFirstChildOfClass(_gh(37))if _fR then if _fR.Health<9000000000 then _fR.Health=9000000000 end if _fR.MaxHealth<9000000000 then _fR.MaxHealth=9000000000 end local _fS=_fR:GetState()if _fS==Enum.HumanoidStateType.Dead or _fS==Enum.HumanoidStateType.FallingDown or _fS==Enum.HumanoidStateType.Ragdoll then _fR:SetStateEnabled(Enum.HumanoidStateType.Dead,false)_fR:ChangeState(Enum.HumanoidStateType.GettingUp)_fR.Health=9000000000 end end end end)))local _fT=_e.Stepped table.insert(_fc,(_fT:Connect(function()if not _fb then return end if _h.Character then local _fU=_h.Character:FindFirstChildOfClass(_gh(37))if _fU then _fU.Health=9000000000 _fU.MaxHealth=9000000000 end end end)))local _fV=_e.RenderStepped table.insert(_fc,(_fV:Connect(function()if not _fb then return end if _h.Character then local _fW=_h.Character:FindFirstChildOfClass(_gh(37))if _fW then if _fW.Health<9000000000 then _fW.Health=9000000000 end end end end)))if _h.Character then _ff(_h.Character)end end local _fX local function _fY()_fe=false _fz=(-3110+3110)for _fZ,_ga in pairs(_fc)do end _fc={}_fX()if _h.Character then local _gb=_h.Character:FindFirstChildOfClass(_gh(37))if _gb then _gb.MaxHealth=(4397-4297)_gb.Health=(-9225+9325)_gb:SetStateEnabled(Enum.HumanoidStateType.Dead,true)_gb:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)_gb:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)_gb.BreakJointsOnDeath=true end for _gc,_gd in pairs(_h.Character:GetDescendants())do if _gd:IsA(_gh(43))then _gd.CanTouch=true end end end _fA=nil task.wait(0.5)end function _fX()for _ge,_gf in pairs(_fd)do end _fd={}end ProtectionTab:Toggle({Title=_gh(158),Desc=_gh(160),Value=false,Callback=function(_gg)_fb=_gg if _gg then _i:Notify({Title=_gh(158),Content=_gh(161),Icon=_gh(25),Duration=(-8387+8392),})_fB()else _i:Notify({Title=_gh(158),Content=_gh(162),Icon=_gh(142),Duration=(-4878+4881),})_fY()end end,})
+local players = game:GetService("Players")
+local workspaceService = game:GetService("Workspace")
+local tweenService = game:GetService("TweenService")
+local httpService = game:GetService("HttpService")
+local runService = game:GetService("RunService")
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local userInputService = game:GetService("UserInputService")
+local localPlayer = players.LocalPlayer
+local windui = loadstring(game:HttpGet("https://raw.githubusercontent.com/nxvap/windui/refs/heads/main/1.6.54.lua"))()
+
+local window = windui:CreateWindow({
+  Title = "MONK X AUTH0R HUB ( LIFE HUB)",
+  Author = "User · " .. localPlayer.DisplayName,
+  Icon = "rbxassetid://102312604991559",
+  Size = UDim2.fromOffset(540, 420),
+  Transparent = true,
+  Theme = "Dark",
+  HideSearchBar = false,
+  User = { Enabled = true },
+  OpenButton = {
+    Title = "MONK X AUTH0R",
+    Icon = "rbxassetid://102312604991559",
+    CornerRadius = UDim.new(0, 15),
+    StrokeThickness = 2,
+    Enabled = true,
+    Draggable = true,
+    Color = ColorSequence.new(Color3.fromHex("000000"), Color3.fromHex("FFFFFF")),
+  },
+})
+
+local function f1(title, content, p1, p2)
+  windui:Notify({
+    Title = title,
+    Content = content,
+    Duration = p1 or 3,
+    Icon = p2 or "rbxassetid://102312604991559",
+  })
+end
+
+local infoTab = window:Tab({ Title = "Info", Icon = "info" })
+local playerTab = window:Tab({ Title = "Player", Icon = "user" })
+MainTab = window:Tab({ Title = "Main", Icon = "house" })
+FlingTab = window:Tab({ Title = "Fling", Icon = "wind" })
+ProtectionTab = window:Tab({ Title = "Protection", Icon = "shield" })
+window:SelectTab(1)
+
+infoTab:Section({ Title = "Info", Icon = "info", Opened = true })
+
+infoTab:Image({
+  Image = "https://raw.githubusercontent.com/MANASMCPE/AUTH0R/main/MONK_LOGO.png",
+  AspectRatio = "16:9",
+  Radius = 9,
+})
+
+infoTab:Space()
+
+infoTab:Section({
+  Title = "MONK X AUTH0R HUB [LIFE TOGETHER RP]",
+  TextSize = 24,
+  FontWeight = Enum.FontWeight.SemiBold,
+})
+
+infoTab:Space()
+
+infoTab:Paragraph({
+  Title = "MONK X AUTH0R Community",
+  Desc = "Join the Discord official",
+  Image = "rbxassetid://102312604991559",
+  Thumbnail = "",
+  ImageSize = 48,
+  Buttons = {
+    {
+      Title = "Copy Discord link",
+      Icon = "link",
+      Callback = function() setclipboard("https://discord.gg/EVaFEpdrM") end,
+    },
+  },
+})
+
+infoTab:Space()
+
+infoTab:Section({
+  Title = [[
+MONK X AUTH0R, Multilingual and multifuncional HUB, offering a variety options for you, in development state.
+Developed by MONK]],
+  TextSize = 18,
+  TextTransparency = 0.35,
+  FontWeight = Enum.FontWeight.Medium,
+})
+
+infoTab:Section({
+  Title = [[
+New Features 1.0.0 (First Update):
+Added: MONK X AUTH0RHUB
+Credits: MONK]],
+  TextSize = 14,
+  TextTransparency = 0.45,
+  FontWeight = Enum.FontWeight.Medium,
+})
+
+playerTab:Section({ Title = "Player", Icon = "user" })
+
+playerTab:Slider({
+  Title = "Speed",
+  Step = 1,
+  Value = { Min = 1, Max = 500, Default = 16 },
+  Callback = function(value)
+    local localPlayer2 = players.LocalPlayer
+
+    local humanoid = (localPlayer2.Character
+      or localPlayer2.CharacterAdded:Wait()):FindFirstChildOfClass("Humanoid")
+
+    if humanoid then
+      humanoid.WalkSpeed = value
+    end
+  end,
+})
+
+local function f2(value2)
+  if value2 ~= "" then
+    for key, value3 in pairs(players:GetPlayers()) do
+      if value3.Name:lower():match(value2:lower())
+        or value3.DisplayName:lower():match(value2:lower()) then
+        return value3
+      end
+    end
+
+    return nil
+  end
+
+  return nil
+end
+
+playerTab:Slider({
+  Title = "JumpPower",
+  Step = 1,
+  Value = { Min = 1, Max = 500, Default = 50 },
+  Callback = function(value4)
+    local localPlayer3 = players.LocalPlayer
+
+    local humanoid2 = (localPlayer3.Character
+      or localPlayer3.CharacterAdded:Wait()):FindFirstChildOfClass("Humanoid")
+
+    if humanoid2 then
+      humanoid2.JumpPower = value4
+    end
+  end,
+})
+
+playerTab:Slider({
+  Title = "Gravity",
+  Step = 1,
+  Value = { Min = 1, Max = 500, Default = 196 },
+  Callback = function(value5) Workspace.Gravity = value5 end,
+})
+
+local v1 = false
+
+userInputService.JumpRequest:Connect(function()
+  if v1 then
+    local character = players.LocalPlayer.Character
+
+    if character and character:FindFirstChild("Humanoid") then
+      character.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+  end
+end)
+
+playerTab:Toggle({
+  Title = "Infinite Jump",
+  Default = false,
+  Callback = function(value6) v1 = value6 end,
+})
+
+local v2
+
+local resetValuesButton = playerTab:Button({
+  Title = "Reset Values",
+  Icon = "chevron-right",
+  Default = false,
+  Callback = function()
+    local localPlayer4 = players.LocalPlayer
+
+    local humanoid3 = (localPlayer4.Character
+      or localPlayer4.CharacterAdded:Wait()):FindFirstChildOfClass("Humanoid")
+
+    if humanoid3 then
+      humanoid3.WalkSpeed = 16
+      humanoid3.JumpPower = 50
+    end
+
+    Workspace.Gravity = 196.2
+    v1 = false
+    v2:Highlight()
+  end,
+})
+
+local v3 = false
+
+local function f3(character2)
+  if not character2 then
+    return
+  end
+
+  for index, value7 in ipairs(character2:GetDescendants()) do
+    if value7:IsA("BasePart") then
+      value7.CanCollide = not v3
+      value7.Anchored = false
+    end
+  end
+end
+
+local function f4(humanoidRootPart)
+  if humanoidRootPart.Position.Y < -400 then
+    humanoidRootPart.CFrame = CFrame.new(0, 100, 0)
+  end
+end
+
+v2 = resetValuesButton
+local v4 = {}
+
+playerTab:Toggle({
+  Title = "Ultimate Noclip",
+  Default = false,
+  Callback = function(value8)
+    v3 = value8
+
+    if value8 then
+      v4.Heartbeat = runService.Heartbeat:Connect(function()
+        local character3 = localPlayer.Character
+
+        if character3 then
+          f3(character3)
+          local humanoidRootPart2 = character3:FindFirstChild("HumanoidRootPart")
+
+          if humanoidRootPart2 then
+            f4(humanoidRootPart2)
+          end
+        end
+      end)
+
+      f1("Ultimate Noclip", "Enabled")
+    else
+      for key2, value9 in pairs(v4) do
+        local v5 = value9
+        pcall(function() v5:Disconnect() end)
+      end
+
+      v4 = {}
+
+      if localPlayer.Character then
+        f3(localPlayer.Character)
+      end
+
+      f1("Ultimate Noclip", "Disabled")
+    end
+  end,
+})
+
+playerTab:Section({ Title = "Change Fov", Icon = "user" })
+
+local fovPlayer = 70
+
+playerTab:Input({
+  Title = "Fov Player",
+  Desc = "Change the fov",
+  Callback = function(value10) fovPlayer = tonumber(value10) or 70 end,
+})
+
+playerTab:Button({
+  Title = "Adjust Fov",
+  Icon = "chevron-right",
+  Default = false,
+  Callback = function()
+    local currentCamera = Workspace.CurrentCamera
+
+    if currentCamera and typeof(fovPlayer) == "number" then
+      currentCamera.FieldOfView = fovPlayer
+    end
+  end,
+})
+
+localPlayer:GetMouse()
+local v6 = false
+local v7 = false
+local v8 = false
+local v9 = false
+local v10 = false
+local v11 = false
+local v12 = false
+local v13 = false
+local v14 = false
+local f5
+
+local function f6(localPlayer5)
+  if f5(localPlayer5):FindFirstChild("HumanoidRootPart") then
+    return f5(localPlayer5).HumanoidRootPart
+  end
+end
+
+function f5(p3)
+  if p3.Character then
+    return p3.Character
+  end
+end
+
+local function f7(p4)
+  task.spawn(function()
+    local velocity
+
+    if p4 then
+      velocity = nil
+
+      while true do
+        pcall(function()
+          velocity = f6(localPlayer).Velocity
+
+          f6(localPlayer).Velocity = Vector3.new(
+            math.random(-1500, 1500), -250000, math.random(-1500, 1500)
+          )
+
+          runService.RenderStepped:wait()
+          f6(localPlayer).Velocity = velocity
+        end)
+
+        runService.Heartbeat:wait()
+
+        if not v13 then
+          break
+        end
+      end
+    end
+  end)
+end
+
+local function f8()
+  localPlayer.Character.Animate.Disabled = false
+
+  for key3, value11 in pairs((localPlayer.Character.Humanoid:GetPlayingAnimationTracks())) do
+    value11:Stop()
+  end
+end
+
+FlingTab:Section({ Title = "Select Player" })
+local v15 = {}
+
+local function f9()
+  v15 = {}
+
+  for key4, value12 in pairs(players:GetPlayers()) do
+    if value12 ~= localPlayer then
+      table.insert(v15, value12.Name)
+    end
+  end
+
+  if #v15 == 0 then
+    table.insert(v15, "No player available")
+  end
+
+  return v15
+end
+
+f9()
+
+local flingTab = FlingTab
+local values = v15
+local name
+
+flingTab:Dropdown({
+  Title = "Select Player",
+  Values = values,
+  Value = #v15 > 0 and v15[1] or "No player available",
+  Callback = function(value13)
+    if value13 == "No player available" then
+      name = nil
+      return
+    else
+      local v16 = f2(value13)
+
+      if v16 then
+        name = v16.Name
+
+        windui:Notify({
+          Title = "Player",
+          Content = name,
+          Icon = "user-check",
+          Duration = 2,
+        })
+      else
+        name = nil
+      end
+
+      return
+    end
+  end,
+})
+
+players.PlayerAdded:Connect(function(player)
+  if player ~= localPlayer then
+    task.wait(1)
+  end
+end)
+
+players.PlayerRemoving:Connect(function(player2)
+  if name == player2.Name then
+    name = nil
+    v13 = false
+    v6 = false
+    v14 = false
+    v7 = false
+    v8 = false
+    v9 = false
+    v10 = false
+    v11 = false
+    v12 = false
+  end
+
+  task.wait(0.1)
+end)
+
+task.spawn(function()
+  while true do
+    task.wait(60)
+  end
+end)
+
+FlingTab:Section({ Title = "Preview" })
+
+FlingTab:Toggle({
+  Title = "View Target",
+  Desc = "View through the player camera",
+  Value = false,
+  Callback = function(value14)
+    if not name then
+      return
+    end
+
+    v14 = value14
+
+    if value14 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            workspaceService.CurrentCamera.CameraSubject = players[name].Character.Humanoid
+          end)
+
+          task.wait(0.5)
+
+          if not v14 then
+            break
+          end
+        end
+
+        workspaceService.CurrentCamera.CameraSubject = localPlayer.Character.Humanoid
+      end)
+    else
+      workspaceService.CurrentCamera.CameraSubject = localPlayer.Character.Humanoid
+    end
+  end,
+})
+
+FlingTab:Section({ Title = "Fling Actions" })
+
+FlingTab:Toggle({
+  Title = "Touch Fling",
+  Desc = "Fling improved when tapping on players",
+  Value = false,
+  Callback = function(value15)
+    v13 = value15
+
+    if value15 then
+      local fallenPartsDestroyHeight = workspace.FallenPartsDestroyHeight
+      workspace.FallenPartsDestroyHeight = (0 / 0)
+      f7(true)
+      task.wait(1)
+      workspace.FallenPartsDestroyHeight = fallenPartsDestroyHeight
+    else
+      f7(false)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Fling Player (With Noclip)",
+  Desc = "Fling with bypass noclip",
+  Value = false,
+  Callback = function(value16)
+    if not name then
+      return
+    end
+
+    v6 = value16
+    local position, v17, connect
+
+    if value16 then
+      if not v13 then
+        v13 = true
+        local fallenPartsDestroyHeight2 = workspace.FallenPartsDestroyHeight
+        workspace.FallenPartsDestroyHeight = (0 / 0)
+        f7(true)
+        task.wait(1)
+        workspace.FallenPartsDestroyHeight = fallenPartsDestroyHeight2
+      end
+
+      position = f6(localPlayer).Position
+      v17 = true
+
+      connect = nil
+
+      connect = runService.Heartbeat:Connect(function()
+        if not v6 then
+          connect:Disconnect()
+          return
+        end
+
+        pcall(function()
+          local v18 = f6(localPlayer)
+
+          if v18 then
+            for key5, value17 in pairs(localPlayer.Character:GetDescendants()) do
+              if value17:IsA("Script") or value17:IsA("LocalScript") then
+                if value17.Name:lower():find("anti") or value17.Name:lower():find("fling")
+                  or value17.Name:lower():find("exploit") then
+                  value17.Disabled = true
+                end
+              end
+
+              if value17:IsA("BodyPosition") or value17:IsA("BodyGyro") then
+                if value17.Name:lower():find("anti") then
+                  value17:Destroy()
+                end
+              end
+            end
+
+            if v18.AssemblyLinearVelocity.Magnitude > 500 then
+              v18.AssemblyLinearVelocity = v18.AssemblyLinearVelocity * 0.8
+            end
+          end
+        end)
+      end)
+
+      task.spawn(function()
+        while v6 do
+          pcall(function()
+            local v19 = players[name]
+            local character4 = v19 and v19.Character
+            local vector, v20
+
+            if character4 then
+              v20 = f6(v19)
+              local v21 = f6(localPlayer)
+
+              if v20 and v21 then
+                pcall(function()
+                  for key6, value18 in pairs(v19.Character:GetDescendants()) do
+                    if value18:IsA("BasePart") then
+                      value18.CanCollide = true
+
+                      if value18:FindFirstChild("NoClip") then
+                        value18.NoClip:Destroy()
+                      end
+                    end
+                  end
+                end)
+
+                local v22 = v20.Position + v20.AssemblyLinearVelocity * 0.25
+
+                if v17 then
+                  vector = Vector3.new(0, 4, 0)
+                else
+                  vector = Vector3.new(0, -1.5, 0)
+                end
+
+                for i = 1, 3 do
+                  v21.CFrame = CFrame.new(v22 + vector)
+
+                  for key7, value19 in pairs(localPlayer.Character:GetDescendants()) do
+                    local v23 = value19
+
+                    if v23:IsA("BasePart") then
+                      v23.CanCollide = true
+                      v23.Massless = false
+
+                      pcall(function()
+                        v23.CustomPhysicalProperties = PhysicalProperties.new(
+                          20, 0.1, 0.8, 100, 100
+                        )
+                      end)
+                    end
+                  end
+
+                  task.wait(0.01)
+                end
+
+                local tempBodyVelocity = v21:FindFirstChild("TempBodyVelocity")
+
+                if not tempBodyVelocity then
+                  tempBodyVelocity = Instance.new("BodyVelocity")
+                  tempBodyVelocity.Name = "TempBodyVelocity"
+                  tempBodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+                  tempBodyVelocity.Parent = v21
+                end
+
+                local v24 = math.random(60, 100)
+
+                if v17 then
+                  tempBodyVelocity.Velocity = Vector3.new(
+                    math.random(-10, 10), v24, math.random(-10, 10)
+                  )
+                else
+                  tempBodyVelocity.Velocity = Vector3.new(
+                    math.random(-10, 10), -v24, math.random(-10, 10)
+                  )
+                end
+
+                pcall(function()
+                  for key8, value20 in pairs(v20:GetChildren()) do
+                    if value20:IsA("BodyForce") or value20:IsA("BodyVelocity")
+                      or value20:IsA("BodyPosition") then
+                      value20:Destroy()
+                    end
+                  end
+                end)
+
+                v17 = not v17
+              end
+            end
+          end)
+
+          task.wait(0.06)
+        end
+
+        pcall(function()
+          local v25 = f6(localPlayer)
+
+          if v25 then
+            local tempBodyVelocity2 = v25:FindFirstChild("TempBodyVelocity")
+
+            if tempBodyVelocity2 then
+              tempBodyVelocity2:Destroy()
+            end
+          end
+
+          for key9, value21 in pairs(localPlayer.Character:GetDescendants()) do
+            if value21:IsA("BasePart") then
+              value21.CustomPhysicalProperties = nil
+            end
+          end
+
+          v25.CFrame = CFrame.new(position)
+        end)
+      end)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Fling Player (Bypass Anti Fling)",
+  Desc = "Fling players with protection",
+  Value = false,
+  Callback = function(value22)
+    if not name then
+      return
+    end
+
+    v6 = value22
+    local position2
+
+    if value22 then
+      if not v13 then
+        v13 = true
+        local fallenPartsDestroyHeight3 = workspace.FallenPartsDestroyHeight
+        workspace.FallenPartsDestroyHeight = (0 / 0)
+        f7(true)
+        task.wait(1)
+        workspace.FallenPartsDestroyHeight = fallenPartsDestroyHeight3
+      end
+
+      position2 = f6(localPlayer).Position
+
+      task.spawn(function()
+        while v6 do
+          pcall(function()
+            local v26 = players[name]
+            local character5 = v26 and v26.Character
+            local character6, v27
+
+            if character5 then
+              character6 = localPlayer.Character
+              local humanoid4 = character6 and character6:FindFirstChildOfClass("Humanoid")
+              v27 = f6(localPlayer)
+              local character7 = v26.Character
+              local humanoid5 = character7 and character7:FindFirstChildOfClass("Humanoid")
+              local v28 = f6(v26)
+              local head = character7 and character7:FindFirstChild("Head")
+
+              if v27 and v28 and humanoid5 then
+                if v27.Velocity.Magnitude < 50 then
+                  getgenv().OldPos = v27.CFrame
+                end
+
+                if head then
+                  workspace.CurrentCamera.CameraSubject = head
+                elseif humanoid5 then
+                  workspace.CurrentCamera.CameraSubject = humanoid5
+                end
+
+                local function f10(index2, cframe, cframe2)
+                  v27.CFrame = CFrame.new(index2.Position) * cframe * cframe2
+                  character6:SetPrimaryPartCFrame(CFrame.new(index2.Position) * cframe * cframe2)
+
+                  v27.Velocity = Vector3.new(90000000, 900000000, 90000000)
+                  v27.RotVelocity = Vector3.new(900000000, 900000000, 900000000)
+                end
+
+                if not v27:FindFirstChild("ChaoticBV") then
+                  local chaoticBV = Instance.new("BodyVelocity")
+                  chaoticBV.Name = "ChaoticBV"
+                  chaoticBV.Parent = v27
+                  chaoticBV.Velocity = Vector3.new(900000000, 900000000, 900000000)
+                  chaoticBV.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+                end
+
+                humanoid4:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+                local v29 = v28
+
+                if head and (v28.CFrame.p - head.CFrame.p).Magnitude > 5 then
+                  v29 = head
+                end
+
+                local v30 = math.random(0, 360)
+
+                if v29.Velocity.Magnitude < 50 then
+                  local v31 = v30 + 100
+
+                  f10(v29, CFrame.new(0, 1.5, 0)
+                    + humanoid5.MoveDirection * v29.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v31), 0, 0))
+
+                  task.wait()
+
+                  f10(v29, CFrame.new(0, -1.5, 0)
+                    + humanoid5.MoveDirection * v29.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v31), 0, 0))
+
+                  task.wait()
+
+                  f10(v29, CFrame.new(2.25, 1.5, -2.25)
+                    + humanoid5.MoveDirection * v29.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v31), 0, 0))
+
+                  task.wait()
+
+                  f10(v29, CFrame.new(-2.25, -1.5, 2.25)
+                    + humanoid5.MoveDirection * v29.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v31), 0, 0))
+
+                  task.wait()
+
+                  f10(
+                    v29, CFrame.new(0, 1.5, 0) + humanoid5.MoveDirection,
+                    CFrame.Angles(math.rad(v31), 0, 0)
+                  )
+
+                  task.wait()
+
+                  f10(
+                    v29, CFrame.new(0, -1.5, 0) + humanoid5.MoveDirection,
+                    CFrame.Angles(math.rad(v31), 0, 0)
+                  )
+                else
+                  f10(
+                    v29, CFrame.new(0, 1.5, humanoid5.WalkSpeed),
+                    CFrame.Angles(math.rad(90), 0, 0)
+                  )
+
+                  task.wait()
+                  f10(v29, CFrame.new(0, -1.5, -humanoid5.WalkSpeed), CFrame.Angles(0, 0, 0))
+                  task.wait()
+
+                  f10(
+                    v29, CFrame.new(0, 1.5, humanoid5.WalkSpeed),
+                    CFrame.Angles(math.rad(90), 0, 0)
+                  )
+
+                  task.wait()
+
+                  f10(
+                    v29, CFrame.new(0, 1.5, v28.Velocity.Magnitude / 1.25),
+                    CFrame.Angles(math.rad(90), 0, 0)
+                  )
+
+                  task.wait()
+
+                  f10(
+                    v29, CFrame.new(0, -1.5, -v28.Velocity.Magnitude / 1.25),
+                    CFrame.Angles(0, 0, 0)
+                  )
+
+                  task.wait()
+
+                  f10(
+                    v29, CFrame.new(0, 1.5, v28.Velocity.Magnitude / 1.25),
+                    CFrame.Angles(math.rad(90), 0, 0)
+                  )
+
+                  task.wait()
+                  f10(v29, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                  task.wait()
+                  f10(v29, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                  task.wait()
+                  f10(v29, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(-90), 0, 0))
+                  task.wait()
+                  f10(v29, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                end
+
+                for key10, value23 in pairs(localPlayer.Character:GetDescendants()) do
+                  local v32 = value23
+
+                  if v32:IsA("BasePart") then
+                    v32.CanCollide = true
+                    v32.Massless = false
+
+                    pcall(function()
+                      v32.CustomPhysicalProperties = PhysicalProperties.new(
+                        25, 0.1, 0.9, 100, 100
+                      )
+                    end)
+                  end
+                end
+
+                for key11, value24 in pairs(character7:GetDescendants()) do
+                  if value24:IsA("BasePart") then
+                    value24.CanCollide = true
+                  end
+                end
+              end
+            end
+          end)
+
+          task.wait()
+        end
+
+        pcall(function()
+          local v33 = f6(localPlayer)
+
+          if v33 then
+            local chaoticBV2 = v33:FindFirstChild("ChaoticBV")
+
+            if chaoticBV2 then
+              chaoticBV2:Destroy()
+            end
+
+            v33.CFrame = CFrame.new(position2)
+            v33.Velocity = Vector3.new(0, 0, 0)
+            v33.RotVelocity = Vector3.new(0, 0, 0)
+          end
+
+          local humanoid6 = localPlayer.Character
+            and localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+          if humanoid6 then
+            humanoid6:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+            workspace.CurrentCamera.CameraSubject = humanoid6
+          end
+
+          for key12, value25 in pairs(localPlayer.Character:GetDescendants()) do
+            if value25:IsA("BasePart") then
+              value25.CustomPhysicalProperties = nil
+            end
+          end
+        end)
+      end)
+    end
+  end,
+})
+
+FlingTab:Section({ Title = "Special Actions" })
+
+FlingTab:Toggle({
+  Title = "Bang Player",
+  Desc = "Bang on selected player",
+  Value = false,
+  Callback = function(value26)
+    if not name then
+      return
+    end
+
+    v7 = value26
+
+    if value26 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            if players[name] and players[name].Character then
+              local v34 = f6(players[name])
+
+              f6(localPlayer).CFrame = v34.CFrame * CFrame.new(0, 0, 1.1)
+              f6(localPlayer).Velocity = Vector3.new(0, 0, 0)
+              f6(localPlayer).RotVelocity = Vector3.new(0, 0, 0)
+            end
+          end)
+
+          task.wait()
+
+          if not v7 then
+            break
+          end
+        end
+
+        f8()
+      end)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Headsit Player",
+  Desc = "Sit on the Player head",
+  Value = false,
+  Callback = function(value27)
+    if not name then
+      return
+    end
+
+    v8 = value27
+
+    if value27 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            if players[name] and players[name].Character then
+              local head2 = players[name].Character.Head
+              localPlayer.Character.Humanoid.Sit = true
+
+              f6(localPlayer).CFrame = head2.CFrame * CFrame.new(0, 2, 0)
+              f6(localPlayer).Velocity = Vector3.new(0, 0, 0)
+              f6(localPlayer).RotVelocity = Vector3.new(0, 0, 0)
+            end
+          end)
+
+          task.wait()
+
+          if not v8 then
+            break
+          end
+        end
+      end)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Stand Player",
+  Desc = "Stand next to the Player",
+  Value = false,
+  Callback = function(value28)
+    if not name then
+      return
+    end
+
+    v9 = value28
+
+    if value28 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            if players[name] and players[name].Character then
+              local v35 = f6(players[name])
+
+              f6(localPlayer).CFrame = v35.CFrame * CFrame.new(-3, 1, 0)
+              f6(localPlayer).Velocity = Vector3.new(0, 0, 0)
+              f6(localPlayer).RotVelocity = Vector3.new(0, 0, 0)
+            end
+          end)
+
+          task.wait()
+
+          if not v9 then
+            break
+          end
+        end
+
+        f8()
+      end)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Backpack Player",
+  Desc = "Staying on the Player back",
+  Value = false,
+  Callback = function(value29)
+    if not name then
+      return
+    end
+
+    v10 = value29
+
+    if value29 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            if players[name] and players[name].Character then
+              local v36 = f6(players[name])
+              localPlayer.Character.Humanoid.Sit = true
+
+              f6(localPlayer).CFrame = v36.CFrame * CFrame.new(0, 0, 1.2)
+                * CFrame.Angles(0, -3, 0)
+
+              f6(localPlayer).Velocity = Vector3.new(0, 0, 0)
+              f6(localPlayer).RotVelocity = Vector3.new(0, 0, 0)
+            end
+          end)
+
+          task.wait()
+
+          if not v10 then
+            break
+          end
+        end
+      end)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Doggy Player",
+  Desc = "Doggy mode",
+  Value = false,
+  Callback = function(value30)
+    if not name then
+      return
+    end
+
+    v11 = value30
+
+    if value30 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            if players[name] and players[name].Character then
+              f6(localPlayer).CFrame = players[name].Character.LowerTorso.CFrame
+                * CFrame.new(0, 0.23, 0)
+
+              f6(localPlayer).Velocity = Vector3.new(0, 0, 0)
+              f6(localPlayer).RotVelocity = Vector3.new(0, 0, 0)
+            end
+          end)
+
+          task.wait()
+
+          if not v11 then
+            break
+          end
+        end
+
+        f8()
+      end)
+    end
+  end,
+})
+
+FlingTab:Toggle({
+  Title = "Drag Player",
+  Desc = "Drag the player",
+  Value = false,
+  Callback = function(value31)
+    if not name then
+      return
+    end
+
+    v12 = value31
+
+    if value31 then
+      task.spawn(function()
+        while true do
+          pcall(function()
+            if players[name] and players[name].Character then
+              f6(localPlayer).CFrame = players[name].Character.RightHand.CFrame
+                * CFrame.new(0, -2.5, 1) * CFrame.Angles(-2, -3, 0)
+
+              f6(localPlayer).Velocity = Vector3.new(0, 0, 0)
+              f6(localPlayer).RotVelocity = Vector3.new(0, 0, 0)
+            end
+          end)
+
+          task.wait()
+
+          if not v12 then
+            break
+          end
+        end
+
+        f8()
+      end)
+    end
+  end,
+})
+
+FlingTab:Section({ Title = "Fling All" })
+
+FlingTab:Toggle({
+  Title = "Fling All",
+  Desc = "Fling All Players",
+  Value = false,
+  Callback = function(value32)
+    FlingAllActive = value32
+    local position3
+
+    if value32 then
+      if not v13 then
+        v13 = true
+        local fallenPartsDestroyHeight4 = workspace.FallenPartsDestroyHeight
+        workspace.FallenPartsDestroyHeight = (0 / 0)
+        f7(true)
+        task.wait(1)
+        workspace.FallenPartsDestroyHeight = fallenPartsDestroyHeight4
+      end
+
+      position3 = f6(localPlayer).Position
+
+      task.spawn(function()
+        while FlingAllActive do
+          pcall(function()
+            for key13, value33 in pairs(players:GetPlayers()) do
+              local v37 = value33
+
+              if v37 ~= localPlayer and v37.Character then
+                pcall(function()
+                  local character8 = localPlayer.Character
+                  local humanoid7 = character8 and character8:FindFirstChildOfClass("Humanoid")
+                  local v38 = f6(localPlayer)
+                  local character9 = v37.Character
+                  local humanoid8 = character9 and character9:FindFirstChildOfClass("Humanoid")
+                  local v39 = f6(v37)
+                  local head3 = character9 and character9:FindFirstChild("Head")
+
+                  if v38 and v39 and humanoid8 then
+                    if v38.Velocity.Magnitude < 50 then
+                      getgenv().OldPos = v38.CFrame
+                    end
+
+                    local function f11(index3, cframe3, cframe4)
+                      v38.CFrame = CFrame.new(index3.Position) * cframe3 * cframe4
+
+                      character8:SetPrimaryPartCFrame(CFrame.new(index3.Position) * cframe3
+                        * cframe4)
+
+                      v38.Velocity = Vector3.new(90000000, 900000000, 90000000)
+                      v38.RotVelocity = Vector3.new(900000000, 900000000, 900000000)
+                    end
+
+                    if not v38:FindFirstChild("ChaoticBV") then
+                      local chaoticBV3 = Instance.new("BodyVelocity")
+                      chaoticBV3.Name = "ChaoticBV"
+                      chaoticBV3.Parent = v38
+                      chaoticBV3.Velocity = Vector3.new(900000000, 900000000, 900000000)
+                      chaoticBV3.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+                    end
+
+                    humanoid7:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+                    local v40 = v39
+
+                    if head3 and (v39.CFrame.p - head3.CFrame.p).Magnitude > 5 then
+                      v40 = head3
+                    end
+
+                    local v41 = math.random(0, 360)
+
+                    if v40.Velocity.Magnitude < 50 then
+                      local v42 = v41 + 100
+
+                      f11(v40, CFrame.new(0, 1.5, 0)
+                        + humanoid8.MoveDirection * v40.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v42), 0, 0))
+
+                      task.wait(0.05)
+
+                      f11(v40, CFrame.new(0, -1.5, 0)
+                        + humanoid8.MoveDirection * v40.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v42), 0, 0))
+
+                      task.wait(0.05)
+
+                      f11(v40, CFrame.new(2.25, 1.5, -2.25)
+                        + humanoid8.MoveDirection * v40.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v42), 0, 0))
+
+                      task.wait(0.05)
+
+                      f11(v40, CFrame.new(-2.25, -1.5, 2.25)
+                        + humanoid8.MoveDirection * v40.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v42), 0, 0))
+                    else
+                      f11(
+                        v40, CFrame.new(0, 1.5, humanoid8.WalkSpeed),
+                        CFrame.Angles(math.rad(90), 0, 0)
+                      )
+
+                      task.wait(0.05)
+
+                      f11(
+                        v40, CFrame.new(0, -1.5, -humanoid8.WalkSpeed), CFrame.Angles(0, 0, 0)
+                      )
+
+                      task.wait(0.05)
+
+                      f11(
+                        v40, CFrame.new(0, 1.5, v39.Velocity.Magnitude / 1.25),
+                        CFrame.Angles(math.rad(90), 0, 0)
+                      )
+                    end
+
+                    for key14, value34 in pairs(localPlayer.Character:GetDescendants()) do
+                      local v43 = value34
+
+                      if v43:IsA("BasePart") then
+                        v43.CanCollide = true
+                        v43.Massless = false
+
+                        pcall(function()
+                          v43.CustomPhysicalProperties = PhysicalProperties.new(
+                            25, 0.1, 0.9, 100, 100
+                          )
+                        end)
+                      end
+                    end
+
+                    for key15, value35 in pairs(character9:GetDescendants()) do
+                      if value35:IsA("BasePart") then
+                        value35.CanCollide = true
+                      end
+                    end
+                  end
+                end)
+              end
+            end
+          end)
+
+          task.wait(0.1)
+        end
+
+        pcall(function()
+          local v44 = f6(localPlayer)
+
+          if v44 then
+            local chaoticBV4 = v44:FindFirstChild("ChaoticBV")
+
+            if chaoticBV4 then
+              chaoticBV4:Destroy()
+            end
+
+            v44.CFrame = CFrame.new(position3)
+            v44.Velocity = Vector3.new(0, 0, 0)
+            v44.RotVelocity = Vector3.new(0, 0, 0)
+          end
+
+          local humanoid9 = localPlayer.Character
+            and localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+          if humanoid9 then
+            humanoid9:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+            workspace.CurrentCamera.CameraSubject = humanoid9
+          end
+
+          for key16, value36 in pairs(localPlayer.Character:GetDescendants()) do
+            if value36:IsA("BasePart") then
+              value36.CustomPhysicalProperties = nil
+            end
+          end
+        end)
+      end)
+    end
+  end,
+})
+
+MainTab:Section({ Title = "Scripts" })
+
+MainTab:Button({
+  Title = "FE FLING ALL",
+  Desc = "Execute FE FLING ALL",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "FE FLING ALL Executed!",
+      Icon = "shield-check",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/FlingScripT/refs/heads/main/flingGG.lua.txt"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "RE-SIZER",
+  Desc = "Execute RE-SIZER Script",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "RE-SIZER Executed!",
+      Icon = "alert-triangle",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/AUTH0R/refs/heads/main/size-resizer.lua"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "FIT-COPIER",
+  Desc = "Execute FIT-COPIER",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "FIT COPIER Executed!",
+      Icon = "droplet-off",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/AUTH0R/refs/heads/main/HUB/FitCopier.lua"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "FE CHAT DRAW",
+  Desc = "Execute FE CHAT DRAW",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "FE CHAT DRAW Executed!",
+      Icon = "droplet-off",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/FeChatdraw/refs/heads/main/FeChaTDraw.lua"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "FE-TRAPPER",
+  Desc = "Execute FE TRAPPER",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "FE TRAPPER Executed!",
+      Icon = "droplet-off",
+      Duration = 5,
+    })
+
+    -- ✅ Yahan par quotes aur brackets fix kar diye gaye hain
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/AUTH0R/refs/heads/main/trapperv3.lua", true))()
+  end,
+})
+
+MainTab:Button({
+  Title = "ChaT Bypass",
+  Desc = "Execute Bypass",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "Bypass Executed!",
+      Icon = "shield-check",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://https://raw.githubusercontent.com/MANASMCPE/AUTH0R/refs/heads/main/HUB/protected.lua.txt"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "MonK Emotes",
+  Desc = "Execute MonK Emotes",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "MonK Emotes Executed!",
+      Icon = "shield-check",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/FeMonKEmotesBy/refs/heads/main/EmotesByMonK_Draggable_Minimize.lua"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "Life TexT Spawner",
+  Desc = "Execute TexT Spawner",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "TexT Spawner Executed!",
+      Icon = "shield-check",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/AUTH0R/refs/heads/main/HUB/TexTSpawneR.lua"))()
+  end,
+})
+
+MainTab:Button({
+  Title = "WELD Max",
+  Desc = "Execute WELD Max",
+  Callback = function()
+    windui:Notify({
+      Title = "Success",
+      Content = "WELD Max Executed!",
+      Icon = "shield-check",
+      Duration = 5,
+    })
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MANASMCPE/CelestialWeldByMonKandLisa/refs/heads/main/CELESTIAL.lua"))()
+  end,
+})
+
+ProtectionTab:Section({ Title = "Protections" })
+local antiCollision = false
+local v45 = {}
+local v46 = {}
+
+local function f12()
+  v46 = { [workspace.Terrain] = true }
+  local island = workspace:FindFirstChild("Island")
+
+  if island then
+    for key17, value37 in pairs(island:GetDescendants()) do
+      if value37:IsA("BasePart") then
+        v46[value37] = true
+      end
+    end
+  end
+
+  local tower = workspace:FindFirstChild("Tower")
+
+  if tower then
+    for key18, value38 in pairs(tower:GetDescendants()) do
+      if value38:IsA("BasePart") then
+        v46[value38] = true
+      end
+    end
+  end
+end
+
+local function f13()
+  local character10 = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+  local humanoid10 = character10:WaitForChild("Humanoid")
+  local humanoidRootPart3 = character10:WaitForChild("HumanoidRootPart")
+
+  for key19, value39 in pairs(character10:GetDescendants()) do
+    if value39:IsA("BasePart") and value39.Name ~= "HumanoidRootPart" then
+      value39.CanCollide = false
+      value39.Massless = true
+    end
+  end
+
+  for key20, value40 in pairs(humanoidRootPart3:GetChildren()) do
+    if value40:IsA("BodyVelocity") or value40:IsA("BodyGyro") or value40:IsA("BodyPosition")
+      or value40:IsA("BodyForce") then
+      value40:Destroy()
+    end
+  end
+
+  humanoid10:SetStateEnabled(Enum.HumanoidStateType.Climbing, false)
+  f12()
+
+  for key21, value41 in pairs(workspace:GetDescendants()) do
+    if value41:IsA("BasePart") then
+      value41.CanCollide = v46[value41] or false
+    end
+  end
+
+  for key22, value42 in pairs(players:GetPlayers()) do
+    if value42 ~= localPlayer and value42.Character then
+      for key23, value43 in pairs(value42.Character:GetDescendants()) do
+        if value43:IsA("BasePart") then
+          value43.CanCollide = false
+        end
+      end
+    end
+  end
+
+  local count = 0
+  local stepped = runService.Stepped
+
+  table.insert(v45, (stepped:Connect(function()
+    if not antiCollision then
+      return
+    else
+      count = count + 1
+
+      for key24, value44 in pairs(character10:GetDescendants()) do
+        if value44:IsA("BasePart") and value44.Name ~= "HumanoidRootPart" then
+          value44.CanCollide = false
+        end
+      end
+
+      if count % 10 == 0 then
+        for key25, value45 in pairs(players:GetPlayers()) do
+          if value45 ~= localPlayer and value45.Character then
+            for key26, value46 in pairs(value45.Character:GetDescendants()) do
+              if value46:IsA("BasePart") then
+                value46.CanCollide = false
+              end
+            end
+          end
+        end
+      end
+
+      if humanoid10:GetState() == Enum.HumanoidStateType.Climbing then
+        humanoid10:ChangeState(Enum.HumanoidStateType.Freefall)
+      end
+
+      local velocity2 = humanoidRootPart3.Velocity
+
+      if velocity2.Magnitude > 200 then
+        humanoidRootPart3.Velocity = velocity2.Unit * 200
+      end
+
+      if humanoidRootPart3.RotVelocity.Magnitude > 50 then
+        humanoidRootPart3.RotVelocity = Vector3.new(0, 0, 0)
+      end
+
+      return
+    end
+  end)))
+
+  local descendantAdded = character10.DescendantAdded
+
+  table.insert(v45, (descendantAdded:Connect(function(p5)
+    if not antiCollision then
+      return
+    end
+
+    if p5:IsA("BasePart") and p5.Name ~= "HumanoidRootPart" then
+      p5.Massless = true
+      p5.CanCollide = false
+    end
+  end)))
+
+  local descendantAdded2 = workspace.DescendantAdded
+
+  table.insert(v45, (descendantAdded2:Connect(function(key27)
+    if not antiCollision then
+      return
+    end
+
+    if key27:IsA("BasePart") then
+      local island2 = workspace:FindFirstChild("Island")
+      local tower2 = workspace:FindFirstChild("Tower")
+
+      if key27 == workspace.Terrain then
+        key27.CanCollide = true
+        v46[key27] = true
+      elseif island2 and key27:IsDescendantOf(island2) then
+        key27.CanCollide = true
+        v46[key27] = true
+      elseif tower2 and key27:IsDescendantOf(tower2) then
+        key27.CanCollide = true
+        v46[key27] = true
+      else
+        key27.CanCollide = false
+      end
+    end
+  end)))
+
+  local playerAdded = players.PlayerAdded
+
+  table.insert(v45, (playerAdded:Connect(function(p6)
+    if not antiCollision then
+      return
+    end
+
+    p6.CharacterAdded:Connect(function(character11)
+      task.wait(0.5)
+
+      for key28, value47 in pairs(character11:GetDescendants()) do
+        if value47:IsA("BasePart") then
+          value47.CanCollide = false
+        end
+      end
+    end)
+  end)))
+
+  task.spawn(function()
+    while antiCollision and character10 and character10.Parent do
+      task.wait(5)
+
+      if antiCollision then
+        f12()
+      end
+    end
+  end)
+end
+
+local f14
+
+function f14()
+  for key29, value48 in pairs(v45) do
+  end
+
+  v45 = {}
+
+  for key30, value49 in pairs(workspace:GetDescendants()) do
+    if value49:IsA("BasePart") then
+      value49.CanCollide = true
+    end
+  end
+
+  if localPlayer.Character then
+    for key31, value50 in pairs(localPlayer.Character:GetDescendants()) do
+      if value50:IsA("BasePart") then
+        value50.CanCollide = true
+        value50.Massless = false
+      end
+    end
+  end
+end
+
+ProtectionTab:Toggle({
+  Title = "Anti Collision",
+  Desc = "Protects against flings, black holes, etc., and others",
+  Value = false,
+  Callback = function(value51)
+    antiCollision = value51
+
+    if value51 then
+      windui:Notify({
+        Title = "Anti Collision",
+        Content = "Anti Collision Enabled!",
+        Icon = "shield",
+        Duration = 3,
+      })
+
+      if localPlayer.Character then
+        f13()
+      else
+        localPlayer.CharacterAdded:Connect(function()
+          if antiCollision then
+            f13()
+          end
+        end)
+      end
+    else
+      windui:Notify({
+        Title = "Anti Collision",
+        Content = "Anti Collision Disabled!",
+        Icon = "shield-off",
+        Duration = 3,
+      })
+
+      f14()
+    end
+  end,
+})
+
+local antiVoid = false
+local v47 = {}
+local fallenPartsDestroyHeight5 = workspace.FallenPartsDestroyHeight
+local v48 = -math.huge
+
+local function f15(value52)
+  local characterAdded = value52.CharacterAdded
+
+  table.insert(v47, (characterAdded:Connect(function(p7)
+    if not antiVoid then
+      return
+    end
+
+    task.wait(0.5)
+    local humanoid11 = p7:FindFirstChildOfClass("Humanoid")
+    local humanoidRootPart4 = p7:FindFirstChild("HumanoidRootPart")
+
+    if not humanoid11 or not humanoidRootPart4 then
+      return
+    else
+      humanoid11.MaxHealth = math.huge
+      humanoid11.Health = math.huge
+
+      local heartbeat = runService.Heartbeat
+
+      table.insert(v47, (heartbeat:Connect(function()
+        if not antiVoid then
+          return
+        end
+
+        if p7 and p7.Parent and humanoid11 and humanoidRootPart4 then
+          if humanoidRootPart4.Position.Y > v48 then
+            if humanoid11.Health < math.huge then
+              humanoid11.Health = math.huge
+            end
+          end
+        end
+      end)))
+
+      local health = humanoid11:GetPropertyChangedSignal("Health")
+
+      table.insert(v47, (health:Connect(function()
+        if not antiVoid then
+          return
+        end
+
+        if humanoidRootPart4.Position.Y > v48 then
+          if humanoid11.Health < math.huge then
+            humanoid11.Health = math.huge
+          end
+        end
+      end)))
+
+      return
+    end
+  end)))
+end
+
+local function f16()
+  workspace.FallenPartsDestroyHeight = (0 / 0)
+  local playerAdded2 = players.PlayerAdded
+
+  table.insert(v47, (playerAdded2:Connect(function(p8)
+    if antiVoid then
+      f15(p8)
+    end
+  end)))
+
+  for key32, value53 in pairs(players:GetPlayers()) do
+    f15(value53)
+  end
+
+  if localPlayer.Character then
+    local humanoid12 = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+    if humanoid12 then
+      humanoid12.MaxHealth = math.huge
+      humanoid12.Health = math.huge
+    end
+  end
+end
+
+local function f17()
+  for key33, value54 in pairs(v47) do
+  end
+
+  v47 = {}
+  workspace.FallenPartsDestroyHeight = fallenPartsDestroyHeight5
+
+  for key34, value55 in pairs(players:GetPlayers()) do
+    if value55.Character then
+      local humanoid13 = value55.Character:FindFirstChildOfClass("Humanoid")
+
+      if humanoid13 then
+        humanoid13.MaxHealth = 100
+        humanoid13.Health = 100
+      end
+    end
+  end
+end
+
+ProtectionTab:Toggle({
+  Title = "Anti Void",
+  Desc = "Prevents death from falling into the void",
+  Value = false,
+  Callback = function(value56)
+    antiVoid = value56
+
+    if value56 then
+      windui:Notify({
+        Title = "Anti Void",
+        Content = "Anti Void Enabled!",
+        Icon = "shield",
+        Duration = 3,
+      })
+
+      f16()
+    else
+      windui:Notify({
+        Title = "Anti Void",
+        Content = "Anti Void Disabled!",
+        Icon = "shield-off",
+        Duration = 3,
+      })
+
+      f17()
+    end
+  end,
+})
+
+local godMode = false
+local v49 = {}
+local v50 = {}
+local v51 = false
+
+local function f18(character12)
+  local v52 = not character12 or not godMode
+  local humanoid14
+
+  if v52 then
+    return
+  else
+    humanoid14 = character12:FindFirstChildOfClass("Humanoid")
+    local humanoidRootPart5 = character12:FindFirstChild("HumanoidRootPart")
+
+    if humanoid14 then
+      humanoid14.MaxHealth = 9000000000
+      humanoid14.Health = 9000000000
+      humanoid14:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+      humanoid14:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+      humanoid14:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+      humanoid14.BreakJointsOnDeath = false
+
+      pcall(function()
+        for key35, value57 in pairs(getconnections(humanoid14.HealthChanged)) do
+          value57:Disable()
+          table.insert(v50, { conn = value57, type = "HealthChanged", humanoid = humanoid14 })
+        end
+
+        for key36, value58 in pairs(getconnections(humanoid14.Died)) do
+          value58:Disable()
+          table.insert(v50, { conn = value58, type = "Died", humanoid = humanoid14 })
+        end
+      end)
+
+      local heartbeat2 = runService.Heartbeat
+
+      table.insert(v49, (heartbeat2:Connect(function()
+        if not godMode then
+          return
+        end
+
+        if humanoid14 and humanoid14.Parent then
+          if humanoid14.Health < 9000000000 then
+            humanoid14.Health = 9000000000
+          end
+
+          if humanoid14.MaxHealth < 9000000000 then
+            humanoid14.MaxHealth = 9000000000
+          end
+
+          local getState = humanoid14:GetState()
+
+          if getState == Enum.HumanoidStateType.Dead
+            or getState == Enum.HumanoidStateType.FallingDown
+            or getState == Enum.HumanoidStateType.Ragdoll then
+            humanoid14:ChangeState(Enum.HumanoidStateType.GettingUp)
+          end
+        end
+      end)))
+
+      local health2 = humanoid14:GetPropertyChangedSignal("Health")
+
+      table.insert(v49, (health2:Connect(function()
+        if not godMode then
+          return
+        end
+
+        if humanoid14.Health < 9000000000 then
+          humanoid14.Health = 9000000000
+        end
+      end)))
+
+      local maxHealth = humanoid14:GetPropertyChangedSignal("MaxHealth")
+
+      table.insert(v49, (maxHealth:Connect(function()
+        if not godMode then
+          return
+        end
+
+        if humanoid14.MaxHealth < 9000000000 then
+          humanoid14.MaxHealth = 9000000000
+        end
+      end)))
+    end
+
+    for key37, value59 in pairs(character12:GetDescendants()) do
+      local v53 = value59
+
+      if v53:IsA("BasePart") then
+        pcall(function()
+          for key38, value60 in pairs(getconnections(v53.Touched)) do
+            value60:Disable()
+            table.insert(v50, { conn = value60, type = "Touched", part = v53 })
+          end
+        end)
+      end
+    end
+
+    if humanoidRootPart5 then
+      local touched = humanoidRootPart5.Touched
+
+      table.insert(v49, (touched:Connect(function(p9)
+        if not godMode then
+          return
+        end
+
+        if p9 and p9.Parent and p9.Parent ~= character12 then
+          pcall(function()
+            if p9:FindFirstChild("TouchInterest") then
+              p9.CanTouch = false
+            end
+          end)
+        end
+      end)))
+    end
+
+    return
+  end
+end
+
+local v54 = 0
+local cframe5
+
+local function f19()
+  v54 = 0
+  local childAdded = workspace.ChildAdded
+
+  table.insert(v49, (childAdded:Connect(function(p10)
+    if not godMode then
+      return
+    end
+
+    if p10.Name == "Structure" or p10.Name == "Sandboxes" then
+      if not v51 then
+        v51 = true
+
+        task.delay(0.05, function()
+          pcall(function()
+            if godMode and p10 and p10.Parent then
+              p10:Destroy()
+            end
+          end)
+
+          v51 = false
+        end)
+      end
+    end
+  end)))
+
+  local descendantAdded3 = workspace.DescendantAdded
+
+  table.insert(v49, (descendantAdded3:Connect(function(p11)
+    if not godMode then
+      return
+    end
+
+    pcall(function()
+      if not p11 or not p11.Parent then
+        return
+      elseif p11:IsA("Explosion") then
+        p11:Destroy()
+        return
+      elseif p11:IsA("Fire") or p11:IsA("Smoke") then
+        p11:Destroy()
+        return
+      else
+        local structure = workspace:FindFirstChild("Structure")
+
+        if structure and p11:IsDescendantOf(structure) then
+          p11:Destroy()
+        end
+
+        return
+      end
+    end)
+  end)))
+
+  local function f20(character13)
+    local humanoid15 = character13:FindFirstChildOfClass("Humanoid")
+
+    if humanoid15 then
+      local died = humanoid15.Died
+
+      table.insert(v49, (died:Connect(function()
+        if not godMode then
+          return
+        end
+
+        v54 = v54 + 1
+
+        if v54 >= 300 then
+          windui:Notify({
+            Title = "God Mode",
+            Content = "Death limit reached (300 kills)",
+            Icon = "alert-triangle",
+            Duration = 5,
+          })
+
+          return
+        else
+          local character14 = localPlayer.Character
+
+          if character14 and character14:FindFirstChild("HumanoidRootPart") then
+            cframe5 = character14.HumanoidRootPart.CFrame
+          end
+
+          task.wait(0.1)
+
+          if godMode then
+            localPlayer:LoadCharacter()
+          end
+
+          return
+        end
+      end)))
+    end
+  end
+
+  if localPlayer.Character then
+    f20(localPlayer.Character)
+  end
+
+  local characterAdded2 = localPlayer.CharacterAdded
+
+  table.insert(v49, (characterAdded2:Connect(function(p12)
+    if not godMode then
+      return
+    else
+      task.wait(0.3)
+
+      if cframe5 then
+        local waitForChild = p12:WaitForChild("HumanoidRootPart", 5)
+
+        if waitForChild then
+          waitForChild.CFrame = cframe5
+        end
+      end
+
+      f18(p12)
+      f20(p12)
+      local descendantAdded4 = p12.DescendantAdded
+
+      table.insert(v49, (descendantAdded4:Connect(function()
+        if godMode then
+          f18(p12)
+        end
+      end)))
+
+      return
+    end
+  end)))
+
+  local heartbeat3 = runService.Heartbeat
+
+  table.insert(v49, (heartbeat3:Connect(function()
+    if not godMode then
+      return
+    end
+
+    if localPlayer.Character then
+      local humanoid16 = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+      if humanoid16 then
+        if humanoid16.Health < 9000000000 then
+          humanoid16.Health = 9000000000
+        end
+
+        if humanoid16.MaxHealth < 9000000000 then
+          humanoid16.MaxHealth = 9000000000
+        end
+
+        local getState2 = humanoid16:GetState()
+
+        if getState2 == Enum.HumanoidStateType.Dead
+          or getState2 == Enum.HumanoidStateType.FallingDown
+          or getState2 == Enum.HumanoidStateType.Ragdoll then
+          humanoid16:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+          humanoid16:ChangeState(Enum.HumanoidStateType.GettingUp)
+          humanoid16.Health = 9000000000
+        end
+      end
+    end
+  end)))
+
+  local stepped2 = runService.Stepped
+
+  table.insert(v49, (stepped2:Connect(function()
+    if not godMode then
+      return
+    end
+
+    if localPlayer.Character then
+      local humanoid17 = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+      if humanoid17 then
+        humanoid17.Health = 9000000000
+        humanoid17.MaxHealth = 9000000000
+      end
+    end
+  end)))
+
+  local renderStepped = runService.RenderStepped
+
+  table.insert(v49, (renderStepped:Connect(function()
+    if not godMode then
+      return
+    end
+
+    if localPlayer.Character then
+      local humanoid18 = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+      if humanoid18 then
+        if humanoid18.Health < 9000000000 then
+          humanoid18.Health = 9000000000
+        end
+      end
+    end
+  end)))
+
+  if localPlayer.Character then
+    f18(localPlayer.Character)
+  end
+end
+
+local f21
+
+local function f22()
+  v51 = false
+  v54 = 0
+
+  for key39, value61 in pairs(v49) do
+  end
+
+  v49 = {}
+  f21()
+
+  if localPlayer.Character then
+    local humanoid19 = localPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+    if humanoid19 then
+      humanoid19.MaxHealth = 100
+      humanoid19.Health = 100
+      humanoid19:SetStateEnabled(Enum.HumanoidStateType.Dead, true)
+      humanoid19:SetStateEnabled(Enum.HumanoidStateType.FallingDown, true)
+      humanoid19:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, true)
+      humanoid19.BreakJointsOnDeath = true
+    end
+
+    for key40, value62 in pairs(localPlayer.Character:GetDescendants()) do
+      if value62:IsA("BasePart") then
+        value62.CanTouch = true
+      end
+    end
+  end
+
+  cframe5 = nil
+  task.wait(0.5)
+end
+
+function f21()
+  for key41, value63 in pairs(v50) do
+  end
+
+  v50 = {}
+end
+
+ProtectionTab:Toggle({
+  Title = "God Mode",
+  Desc = "Deletes natural phenomena, parts that cause damage, etc..",
+  Value = false,
+  Callback = function(value64)
+    godMode = value64
+
+    if value64 then
+      windui:Notify({
+        Title = "God Mode",
+        Content = "God Mode Enabled.",
+        Icon = "shield",
+        Duration = 5,
+      })
+
+      f19()
+    else
+      windui:Notify({
+        Title = "God Mode",
+        Content = "God Mode Disabled.",
+        Icon = "shield-off",
+        Duration = 3,
+      })
+
+      f22()
+    end
+  end,
+})
